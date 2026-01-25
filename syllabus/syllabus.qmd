@@ -293,18 +293,18 @@ Suggested references:
 
 ### February 23, 2026:
 
-- Lecture 11: [Introduction to AI-Assisted Programming and Chatbots](https://raw.githack.com/danilofreire/datasci350/main/lectures/lecture-11/11-ai-programming.html).
+- Lecture 11: [AI and Prompt Engineering](https://raw.githack.com/danilofreire/datasci350/main/lectures/lecture-11/11-ai-programming.html).
 - [Kahoot Quiz](https://play.kahoot.it/v2/?quizId=ecf9f3d1-7d0d-4ca1-a3a5-a26c5e72427b&hostId=05eb977d-4f8a-440e-9e45-95212b29d103).
 
 Suggested references:
 
 - Matarazzo, A & Torlone, R. (2025). [A Survey on Large Language Models with some Insights on their Capabilities and Limitations](https://arxiv.org/abs/2501.04040). arXiv preprint arXiv:2501.04040."
-- Cihon, P. & Demirer, M. (2023). [How AI-powered software development may affect labor markets](https://www.brookings.edu/articles/how-ai-powered-software-development-may-affect-labor-markets/). Brookings Institution
-- Poldrack, R. A., Lu, T., & Beguš, G. (2023). [AI-assisted Coding: Experiments with GPT-4](https://arxiv.org/abs/2304.13187). arXiv preprint arXiv:2304.13187.
-- Lau, S & Guo, P. (2023). [From "Ban It Till We Understand It" to "Resistance is Futile": How University Programming Instructors Plan to Adapt as More Students Use AI Code Generation and Explanation Tools such as ChatGPT and GitHub Copilot](https://dl.acm.org/doi/fullHtml/10.1145/3568813.3600138). In Proceedings of the 2023 ACM Conference on International Computing Education Research V.1 (ICER '23 V1), August 07--11, 2023, Chicago, IL, USA. ACM, New York, NY, USA 16 Pages.
-- [Linus Torvalds Discusses the Impact of AI on Programming (YouTube)](https://www.youtube.com/watch?v=VHHT6W-N0ak).
-- [Using GitHub Copilot in the Command Line](https://docs.github.com/en/copilot/using-github-copilot/using-github-copilot-in-the-command-line)
-- [GitHub Copilot YouTube Playlist](https://www.youtube.com/playlist?list=PL0lo9MOBetEHEHi9h0k_lPn0XZdEeYZDS)
+- Wei, J., et al. (2022). [Chain-of-Thought prompting elicits reasoning in large language models](https://arxiv.org/abs/2201.11903).
+- Kojima, T., et al. (2022). [Large language models are zero-shot reasoners](https://arxiv.org/abs/2205.11916).
+- Yao, S., et al. (2022). [ReAct: Synergizing reasoning and acting](https://arxiv.org/abs/2210.03629).
+- Anthropic (2025). [Prompt engineering overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering). 
+- OpenAI (2025). [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering).
+- Google (2025). [Gemini Prompting Guide](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf). 
 
 ### February 25, 2026:
 
