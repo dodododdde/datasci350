@@ -12,6 +12,8 @@ format:
 transition: slide
 transition-speed: default
 scrollable: true
+revealjs-plugins:
+  - multimodal
 engine: knitr
 editor:
   render-on-save: true
@@ -38,8 +40,8 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/bash.png)
-![](figures/linux-bash.png)
+[![](figures/bash.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/bash.png"}
+[![](figures/linux-bash.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/linux-bash.png"}
 :::
 :::
 :::
@@ -100,7 +102,7 @@ Testing the installation:
 
 ::: {.column width="50%"}
 :::{style="text-align: center; margin-top: -10px;"}
-![](figures/time.jpg){width="250%"}
+[![](figures/time.jpg){width="250%"}](#){data-modal-type="image" data-modal-url="figures/time.jpg"}
 :::
 :::
 :::
@@ -485,7 +487,7 @@ rm -rf project && rm -rf book
 
 ::: {.column width="30%"}
 :::{style="text-align: center; margin-top: -30px; margin-left: 50px;"}
-![](figures/bookshelf.gif){width="150%"}
+[![](figures/bookshelf.gif){width="150%"}](#){data-modal-type="image" data-modal-url="figures/bookshelf.gif"}
 :::
 :::
 :::
@@ -681,7 +683,7 @@ sed '/Project Gutenberg/d' sonnets.txt
 :::
 
 ::: {.column width="50%"}
-![](figures/evil-laugh.gif){width="150%"}
+[![](figures/evil-laugh.gif){width="150%"}](#){data-modal-type="image" data-modal-url="figures/evil-laugh.gif"}
 :::
 :::
 :::
@@ -702,7 +704,7 @@ sed '/Project Gutenberg/d' sonnets.txt
 :::
 
 :::{.column width="50%"}
-![](figures/nano.png)
+[![Click on the image to enlarge it](figures/nano.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/nano.png"}
 :::
 :::
 :::
@@ -722,7 +724,7 @@ sed '/Project Gutenberg/d' sonnets.txt
 :::
 
 ::: {.column width="50%"}
-![](figures/pipe.gif)
+[![](figures/pipe.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/pipe.gif"}
 :::
 :::
 :::
@@ -850,7 +852,7 @@ rm -rf dir*
 :::
 
 :::{.column width="50%"}
-![](figures/automation.gif)
+[![](figures/automation.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/automation.gif"}
 :::
 :::
 :::
@@ -911,7 +913,7 @@ We didn't cover many things in detail:
 :::
 
 :::{.column width="50%"}
-![](figures/next.jpg){width="80%"}
+[![](figures/next.jpg){width="80%"}](#){data-modal-type="image" data-modal-url="figures/next.jpg"}
 :::
 :::
 :::

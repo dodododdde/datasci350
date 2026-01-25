@@ -15,6 +15,7 @@ scrollable: true
 engine: python3
 revealjs-plugins:
   - fontawesome
+  - multimodal
 editor:
   render-on-save: true
 ---
@@ -37,7 +38,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/transformer.png)
+[![](figures/transformer.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/transformer.png"}
 :::
 :::
 :::
@@ -56,7 +57,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/copilot.avif)
+[![](figures/copilot.avif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/copilot.avif"}
 
 [Apply for your Student Developer Pack here](https://education.github.com/discount_requests/application?type=student)
 
@@ -86,7 +87,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -110px;"}
-![](figures/copilot-features.png)
+[![](figures/copilot-features.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/copilot-features.png"}
 :::
 :::
 :::
@@ -110,7 +111,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/claude.png)
+[![](figures/claude.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/claude.png"}
 
 <https://claude.ai/>
 :::
@@ -122,14 +123,14 @@ editor:
 ### Claude Artifacts
 
 :::{style="margin-top: 40px; font-size: 22px; text-align: center;"}
-![](figures/claude-features01.png){width="80%"}
+[![](figures/claude-features01.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/claude-features01.png"}
 :::
 
 ## A short overview of existing AI coding tools
 ### Claude Artifacts
 
 :::{style="margin-top: 40px; font-size: 22px; text-align: center;"}
-![](figures/claude-features02.png){width="80%"}
+[![](figures/claude-features02.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/claude-features02.png"}
 :::
 
 ## A short overview of existing AI coding tools
@@ -152,7 +153,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/cursor.png)
+[![](figures/cursor.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/cursor.png"}
 
 <https://cursor.com/>
 :::
@@ -178,7 +179,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/deepseek.jpg)
+[![](figures/deepseek.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/deepseek.jpg"}
 
 <https://deepseek.com/>
 :::
@@ -204,7 +205,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/cline.gif)
+[![](figures/cline.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/cline.gif"}
 
 <https://github.com/cline/cline>
 :::
@@ -247,7 +248,7 @@ gh extension install github/copilot-cli
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/gh-cli.png)
+[![](figures/gh-cli.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/gh-cli.png"}
 
 <https://cli.github.com/>
 :::
@@ -381,7 +382,7 @@ echo ". `"$GH_COPILOT_PROFILE`"" >> $PROFILE
   - `find / -name '*.log' -exec grep 'error' {} +`
 
 :::{style="text-align: center;"}
-![](figures/ghce01.png)
+[![](figures/ghce01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ghce01.png"}
 :::
 :::
 
@@ -392,14 +393,14 @@ echo ". `"$GH_COPILOT_PROFILE`"" >> $PROFILE
 - `ghcs "create three txt files with names test1.txt, test2.txt, and test3.txt", then add the content "Hello, world!" to each file, then list the files, show the content of each file, and delete them"`
 
 :::{style="text-align: center;"}
-![](figures/ghcs01.png){width="80%"}
+[![](figures/ghcs01.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/ghcs01.png"}
 :::
 :::
 
 ## Example 01: Stop struggling with terminal commands 🖥️
 
 :::{style="margin-top: 40px; font-size: 21px; text-align: center;"}
-![](figures/ghcs02.png){width="100%"}
+[![](figures/ghcs02.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ghcs02.png"}
 :::
 
 ## Example 02: Stop struggling with Git 🐙
@@ -409,7 +410,7 @@ echo ". `"$GH_COPILOT_PROFILE`"" >> $PROFILE
 - `ghcs "create a new branch called 'feature-branch', switch to it, create a new file called 'feature.txt', add some content to it, commit the changes, push the branch to the remote repository, and open a pull request"`
 
 :::{style="text-align: center;"}
-![](figures/ghcs03.png){width="80%"}
+[![](figures/ghcs03.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/ghcs03.png"}
 :::
 :::
 
@@ -419,7 +420,7 @@ echo ". `"$GH_COPILOT_PROFILE`"" >> $PROFILE
 - `ghcs "how can I use gh to create a new private repository on GitHub danilofreire/testing, clone it to my computer, add a README file, commit the changes, push the changes to the remote repository, and open a pull request?"`
 
 :::{style="text-align: center;"}
-![](figures/ghcs04.png){width="80%"}
+[![](figures/ghcs04.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/ghcs04.png"}
 :::
 :::
 
@@ -442,7 +443,7 @@ echo ". `"$GH_COPILOT_PROFILE`"" >> $PROFILE
 - Type `/explain` followed by a code snippet to get an explanation. You can select the snippet directly in the terminal, then just type `/explain`
 
 :::{style="text-align: center;"}
-![](figures/copilot-explain.png){width="80%"}
+[![](figures/copilot-explain.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/copilot-explain.png"}
 :::
 :::
 
@@ -481,7 +482,7 @@ class SimpleCalculator:
 ## Example 05: Run tests 🧪
 
 :::{style="margin-top: 40px; font-size: 21px; text-align: center;"}
-![](figures/copilot-tests.png){width="80%"}
+[![](figures/copilot-tests.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/copilot-tests.png"}
 :::
 
 ## Example 06: Fix code 🛠️
@@ -507,7 +508,7 @@ def is_even(number):
 ## Example 06: Fix code 🛠
 
 :::{style="margin-top: 40px; font-size: 21px; text-align: center;"}
-![](figures/copilot-fix.png){width="80%"}
+[![](figures/copilot-fix.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/copilot-fix.png"}
 :::
 
 ## Example 07: Create new file and generate text/code 🚀
@@ -517,7 +518,7 @@ def is_even(number):
 - `/new create a file.txt file with the first three lines of Homer's Odyssey`
 
 :::{style="text-align: center;"}
-![](figures/copilot-new.png){width="90%"}
+[![](figures/copilot-new.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/copilot-new.png"}
 :::
 :::
 
@@ -528,7 +529,7 @@ def is_even(number):
 - `@terminal create a file titled test.py and add print("Hello, world!") using the command line`
 
 :::{style="text-align: center;"}
-![](figures/copilot-terminal.png){width="90%"}
+[![](figures/copilot-terminal.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/copilot-terminal.png"}
 :::
 :::
 
@@ -540,7 +541,7 @@ def is_even(number):
 - You can also use `@github` to create a new repository, open a pull request, and more
 
 :::{style="text-align: center;"}
-![](figures/copilot-github.png){width="90%"}
+[![](figures/copilot-github.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/copilot-github.png"}
 :::
 :::
 
@@ -551,7 +552,7 @@ def is_even(number):
 - For example, let's see how to open a new file in the editor
 
 :::{style="text-align: center;"}
-![](figures/copilot-vscode.png){width="90%"}
+[![](figures/copilot-vscode.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/copilot-vscode.png"}
 :::
 :::
 
@@ -562,7 +563,7 @@ def is_even(number):
 - For example, let's ask it to list the files in the workspace
 
 :::{style="text-align: center;"}
-![](figures/copilot-workspace.png){width="90%"}
+[![](figures/copilot-workspace.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/copilot-workspace.png"}
 :::
 :::
 
@@ -573,7 +574,7 @@ def is_even(number):
 - Click on the icons and they will open!
 
 :::{style="text-align: center;"}
-![](figures/copilot-workspace02.png){width="90%"}
+[![](figures/copilot-workspace02.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/copilot-workspace02.png"}
 :::
 :::
 
@@ -585,7 +586,7 @@ def is_even(number):
 - Let's search for Python code in this file
 
 :::{style="text-align: center;"}
-![](figures/copilot-file.png){width="90%"}
+[![](figures/copilot-file.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/copilot-file.png"}
 :::
 :::
 
@@ -604,7 +605,7 @@ def is_even(number):
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -50px;"}
-![](figures/ai-tools.png)
+[![](figures/ai-tools.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ai-tools.png"}
 :::
 :::
 :::

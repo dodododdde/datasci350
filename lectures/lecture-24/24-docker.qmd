@@ -16,6 +16,7 @@ scrollable: true
 engine: python3
 revealjs-plugins:
   - fontawesome
+  - multimodal
 editor:
   render-on-save: true
 ---
@@ -40,7 +41,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/phd031214s.png)
+[![](figures/phd031214s.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/phd031214s.png"}
 :::
 :::
 :::
@@ -63,8 +64,8 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/1684079864237.png)
-![](figures/https___thepracticaldev.s3.amazonaws.com_i_f4rmgjxdd6iurstqaai9.jpg)
+[![](figures/1684079864237.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/1684079864237.png"}
+[![](figures/https___thepracticaldev.s3.amazonaws.com_i_f4rmgjxdd6iurstqaai9.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/https___thepracticaldev.s3.amazonaws.com_i_f4rmgjxdd6iurstqaai9.jpg"}
 :::
 :::
 :::
@@ -73,7 +74,7 @@ editor:
 ## Torvalds on vibe coding
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/torvalds.png)
+[![](figures/torvalds.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/torvalds.png"}
 
 <https://www.theregister.com/2025/11/18/linus_torvalds_vibe_coding/>
 :::
@@ -118,8 +119,8 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/ubuntu-logo.png)
-![](figures/Ubuntu-2404.png)
+[![](figures/ubuntu-logo.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ubuntu-logo.png"}
+[![](figures/Ubuntu-2404.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/Ubuntu-2404.png"}
 :::
 :::
 :::
@@ -138,7 +139,7 @@ editor:
 ## Downloading Docker Desktop
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/docker-website.png){width="100%"}
+[![](figures/docker-website.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker-website.png"}
 :::
 
 ## Creating an account on Docker Hub
@@ -155,7 +156,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/docker-signin.png)
+[![](figures/docker-signin.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker-signin.png"}
 :::
 :::
 :::
@@ -283,7 +284,7 @@ SHELL ["/bin/bash", "-c"]
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/python.png){width="100%"}
+[![](figures/python.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/python.png"}
 
 <https://hub.docker.com/_/python>
 :::
@@ -416,7 +417,7 @@ docker build -t datasci350-container .
 - Let's see how it goes! 🤞
 
 :::{style="text-align: center;"}
-![](figures/docker01.png)
+[![](figures/docker01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker01.png"}
 :::
 :::
 
@@ -465,7 +466,7 @@ docker build -t datasci350-container .
 ## Success! 🎉
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/docker02.png)
+[![](figures/docker02.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker02.png"}
 :::
 
 ## Running the container
@@ -488,13 +489,13 @@ docker run -p 8888:8888 -v $(pwd):/workspace datasci350-container
 ## Running the container
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/docker03.png)
+[![](figures/docker03.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker03.png"}
 :::
 
 ## Accessing the JupyterLab interface
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/docker04.png)
+[![](figures/docker04.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker04.png"}
 :::
 
 ## How to manage the container
@@ -582,8 +583,8 @@ http://<EC2_PUBLIC_IP>:8888/lab?token=<TOKEN>
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/0_CP98BIIBgMG2K3u5.png)
-![](figures/layer4.JPG)
+[![](figures/0_CP98BIIBgMG2K3u5.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/0_CP98BIIBgMG2K3u5.png"}
+[![](figures/layer4.JPG){width="100%"}](#){data-modal-type="image" data-modal-url="figures/layer4.JPG"}
 :::
 :::
 :::

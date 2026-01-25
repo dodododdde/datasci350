@@ -12,6 +12,8 @@ format:
 transition: slide
 transition-speed: default
 scrollable: true
+revealjs-plugins:
+  - multimodal
 engine: knitr
 editor:
   render-on-save: true
@@ -68,7 +70,7 @@ for (package in packages) {
 :::
 
 :::{.column width="50%"}
-![](figures/hexadecimal.png)
+[![](figures/hexadecimal.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/hexadecimal.png"}
 :::
 :::
 :::
@@ -89,7 +91,7 @@ for (package in packages) {
 :::
 
 :::{.column width="50%"}
-![](figures/rgb.png)
+[![](figures/rgb.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/rgb.png"}
 :::
 :::
 :::
@@ -109,7 +111,7 @@ for (package in packages) {
 :::
 
 :::{.column width="50%"}
-![](figures/high-low-languages.png)
+[![](figures/high-low-languages.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/high-low-languages.png"}
 :::
 :::
 :::
@@ -128,7 +130,7 @@ for (package in packages) {
 :::
 
 :::{.column width="50%"}
-![](figures/cli.png)
+[![](figures/cli.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/cli.png"}
 :::
 :::
 :::
@@ -144,8 +146,8 @@ for (package in packages) {
 :::{.columns}
 
 ::: {.column width="50%"}
-![](figures/kernel-and-user-space.png)
-Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shell/)
+[![](figures/kernel-and-user-space.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/kernel-and-user-space.png"}
+Source: [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shell/)
 :::
 
 ::: {.column width="50%"}
@@ -165,9 +167,9 @@ Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shel
 :::{style="font-size: 23px;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/kernel-and-user-space.png)
-![](figures/walnut.jpeg){width=25%}
-Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shell/)/[Kkchaudhary11](https://commons.wikimedia.org/w/index.php?curid=49069244)
+[![](figures/kernel-and-user-space.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/kernel-and-user-space.png"}
+[![](figures/walnut.jpeg){width="25%"}](#){data-modal-type="image" data-modal-url="figures/walnut.jpeg"}
+Source: [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shell/)/[Kkchaudhary11](https://commons.wikimedia.org/w/index.php?curid=49069244)
 :::
 
 ::: {.column width="50%"}
@@ -185,14 +187,14 @@ Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shel
 :::{style="font-size: 22px;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/diagram3-terminal-and-shell.png)
-Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shell/)
+[![](figures/diagram3-terminal-and-shell.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/diagram3-terminal-and-shell.png"}
+Source: [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shell/)
 :::
 
 :::{.column width="50%"}
 - Things are still a bit more complicated
 - We're not directly interacting with the "shell" but using a [terminal]{.alert}
-- A terminal is just a program that [reads input]{.alert} from the keyboard, [passes that input]{.alert} to another programme, and [displays the results]{.alert} on the screen
+- A terminal is just a program that [reads input]{.alert} from the keyboard, [passes that input]{.alert} to another program, and [displays the results]{.alert} on the screen
 - A shell program on its own does not do this - it requires a terminal as an interface
 - [Why "terminal"?]{.alert} Back in the old days (before computer screen existed), [terminal machines (hardware!)](https://www.friendlywire.com/articles/vintage-computers/) were used to let humans interface with [large machines ("mainframes")](https://en.wikipedia.org/wiki/Mainframe_computer). Often many terminals were connected to a single machine
 - When you want to work with a computer in a data center (or remotely in cloud computing), you'll still do pretty much the same
@@ -206,17 +208,17 @@ Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shel
 :::{style="font-size: 21px;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/diagram3-terminal-and-shell.png)
-Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shell/)
+[![](figures/diagram3-terminal-and-shell.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/diagram3-terminal-and-shell.png"}
+Source: [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shell/)
 :::
 
 :::{.column width="50%"}
-- Terminals are really quite simple - they're just text-based interfaces
+- Terminals are really quite simple - they're just [text-based interfaces]{.alert}
 - The first thing that a terminal will do is run a shell -- a program we can use to operate the computer
 - [Back to the shell:]{.alert} the shell usually takes input
 
   - Interactively from the user via the terminal's [command line]{.alert}
-  - Executes scripts (without command line)
+  - Executes [scripts]{.alert} (without command line)
 - In interactive mode the shell then returns output
 
   - To the terminal where it is printed/shown
@@ -233,7 +235,7 @@ Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shel
 :::{style="margin-top: 30px; font-size: 23px;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/runningbashscript.png)
+[![](figures/runningbashscript.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/runningbashscript.png"}
 :::
 
 :::{.column width="50%"}
@@ -256,7 +258,7 @@ Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shel
 :::{.fragment .fade-in}
 **Why should you use this...**
 
-![](figures/zsh-screenshot.png)
+[![](figures/zsh-screenshot.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/zsh-screenshot.png"}
 :::
 :::
 
@@ -264,7 +266,7 @@ Credit [Dave Kerr](https://effective-shell.com/part-2-core-skills/what-is-a-shel
 :::{.fragment .fade-in}
 **... instead of this?**
 
-![](figures/macos-finder-screenshot.jpeg)
+[![](figures/macos-finder-screenshot.jpeg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/macos-finder-screenshot.jpeg"}
 :::
 :::
 :::
@@ -383,9 +385,9 @@ echo $SHELL
 whoami 
 pwd 
 mkdir new-folder
+rm -rf new-folder
 cd ..
 ls
-man ls # type 'j' to scroll down, 'k' to scroll up, 'q' to quit
 ```
 
 Share your results with a colleague (or the class)!
@@ -451,7 +453,8 @@ ls -lh ~/Documents
 ```{bash}
 #| echo: true
 #| eval: false
-# sort the file and display only unique lines
+# sort the file and display 
+# only unique lines
 
 sort -u file.txt 
 ```
@@ -596,11 +599,11 @@ mv figs/cat.png best-figs/cat02.png
 -   The `man` pages are grouped into sections, we can see them with `man man`.
 
 -   The [`cht.sh`](https://cht.sh/) website can be used directly from the shell to get help on tools. Run it like this: `curl cht.sh/command` ([how to install `curl`](https://curl.se/download.html)).
-![](figures/chtsh.png)
+[![](figures/chtsh.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/chtsh.png"}
 :::
 
 ::: {.column width="50%"}
-![](figures/beatles-help.jpeg)
+[![](figures/beatles-help.jpeg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/beatles-help.jpeg"}
 
 - Or you can use an LLM (or Google) to search for help on a command. 
 - There's a great chance that someone else has already asked the same question you have 😉
@@ -622,7 +625,7 @@ tldr ls
 :::
 
 ::: {.column width="50%"}
-![](figures/beatles-help.jpeg)
+[![](figures/beatles-help.jpeg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/beatles-help.jpeg"}
 
 - For more info on how to get help, see [here](https://effective-shell.com/part-1-transitioning-to-the-shell/getting-help/).
 :::
@@ -666,7 +669,7 @@ Manual pages are shown in the shell. Here are the essentials to navigate through
 :::
 
 :::{.column width="50%"}
-![](figures/rtfm-bayeux.png)
+[![](figures/rtfm-bayeux.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/rtfm-bayeux.png"}
 [RTFM](https://en.wikipedia.org/wiki/RTFM)!
 
 **Always check the documentation!**
@@ -716,7 +719,7 @@ Reflection: How was using `man` compared to online searches? How might you use i
 :::
 
 ::: {.column width="50%"}
-![](figures/that-way-giphy.gif)
+[![](figures/that-way-giphy.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/that-way-giphy.gif"}
 :::
 :::
 :::
@@ -792,7 +795,7 @@ Beware of directory names that contain spaces. Say you have a directory called "
 :::
 
 ::: {.column width="50%"}
-![](figures/expanding-brain.jpg){width="70%"}
+[![](figures/expanding-brain.jpg){width="70%"}](#){data-modal-type="image" data-modal-url="figures/expanding-brain.jpg"}
 :::
 :::
 :::
@@ -832,7 +835,7 @@ For a detailed overview, click [here](https://effective-shell.com/part-1-transit
 
 ## Shell navigation exercise
 
-:::{style="margin-top: 30px; font-size: 22px;"}
+:::{style="margin-top: 30px; font-size: 26px;"}
 Follow these steps to practice using basic shell commands. Type each command
 and observe the results.
 
@@ -901,7 +904,7 @@ Bonus: Try using the `man` command to learn more about any of the commands you'v
 
 :::{.column width="60%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/lecture.png)
+[![](figures/lecture.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/lecture.png"}
 :::
 :::
 :::

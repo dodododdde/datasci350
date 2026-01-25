@@ -13,6 +13,8 @@ format:
 transition: slide
 transition-speed: default
 scrollable: true
+revealjs-plugins:
+  - multimodal
 engine: python3 
 editor:
   render-on-save: true
@@ -30,28 +32,6 @@ editor:
 - Thank you for your time and input! 🙏
 :::
 
-## Data Science Club workshop
-
-:::{style="margin-top: 30px; font-size: 26px;"}
-:::{.columns}
-:::{.column width="50%"}
-- The Emory Data Science Club is hosting a GitHub portfolio workshop tomorrow!
-- The speaker is... *drumroll*... me! 🥁
-- If you're interested in using GitHub to better showcase your projects, come join us!
-- When: Tomorrow (Tuesday) at 6 PM
-- Where: Math and Science Center in room W301
-- Presentation slides: <https://github.com/danilofreire/dsc-2025/>
-- All are welcome! 🎉
-:::
-
-:::{.column width="50%"}
-:::{style="text-align: center; margin-top: -30px;"}
-![](figures/workshop.png){width=80%}
-:::
-:::
-:::
-:::
-
 ## Course recap
 
 :::{style="margin-top: 30px; font-size: 24px;"}
@@ -67,7 +47,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/table-reproducibility.jpg){width=100%}
+[![](figures/table-reproducibility.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/table-reproducibility.jpg"}
 
 Source: [The Turing Way Community (2025)](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions)
 :::
@@ -112,7 +92,7 @@ Source: [The Turing Way Community (2025)](https://book.the-turing-way.org/reprod
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/von-neumann-architecture.webp){width=100%}
+[![](figures/von-neumann-architecture.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/von-neumann-architecture.webp"}
 
 Source: [Von Neumann architecture (Wikipedia)](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
 :::
@@ -135,7 +115,7 @@ Source: [Von Neumann architecture (Wikipedia)](https://en.wikipedia.org/wiki/Von
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/hexadecimal.png){width=100%}
+[![](figures/hexadecimal.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/hexadecimal.png"}
 
 Conversion table
 :::
@@ -159,7 +139,7 @@ Conversion table
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/ascii-table.png){width=100%}
+[![](figures/ascii-table.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ascii-table.png"}
 
 ASCII table
 :::
@@ -184,7 +164,7 @@ Languages bridge the gap between human instructions and machine execution:
 
 :::{.column width="45%"}
 :::{style="text-align: center;"}
-![](figures/high-low-languages.png){width=100%}
+[![](figures/high-low-languages.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/high-low-languages.png"}
 
 High and low-level languages
 :::
@@ -206,7 +186,7 @@ High and low-level languages
 * You access the shell via a [Terminal]{.alert} application, which handles input and output
   
 :::{style="text-align: center;"}
-![](figures/bash.png){width=70%}
+[![](figures/bash.png){width="70%"}](#){data-modal-type="image" data-modal-url="figures/bash.png"}
 :::
 :::
 
@@ -252,7 +232,7 @@ Core commands:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/grep.png){width=100%}
+[![](figures/grep.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/grep.png"}
 
 Source: [Julia Evans (2024)](https://wizardzines.com/comics/grep/)
 :::
@@ -277,7 +257,7 @@ Source: [Julia Evans (2024)](https://wizardzines.com/comics/grep/)
 :::
 :::{.column width="45%"}
 :::{style="text-align: center;"}
-![](figures/shell-script.png){width=100%}
+[![](figures/shell-script.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/shell-script.png"}
 
 A simple script that moves `.png` files to the Desktop
 :::
@@ -304,7 +284,7 @@ A simple script that moves `.png` files to the Desktop
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/git-workflow.svg){width=100%}
+[![](figures/git-workflow.svg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/git-workflow.svg"}
 
 Source: [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 :::
@@ -333,7 +313,7 @@ Source: [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/github.png){width=100%}
+[![](figures/github.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/github.png"}
 :::
 :::
 :::
@@ -354,7 +334,7 @@ Source: [Atlassian](https://www.atlassian.com/git/tutorials/comparing-workflows/
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/branches.webp){width=100%}
+[![](figures/branches.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/branches.webp"}
 
 Read more: [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 :::
@@ -379,7 +359,7 @@ Read more: [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/quarto.png){width=100%}
+[![](figures/quarto.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/quarto.png"}
 :::
 :::
 :::
@@ -431,7 +411,7 @@ You can also use Quarto for:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/llm.png){width=100%}
+[![](figures/llm.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/llm.png"}
 
 WebUI GitHub repository: <https://github.com/browser-use/web-ui>
 :::
@@ -560,7 +540,7 @@ Going beyond basic queries:
     * `df.to_sql('table', conn, ...)`: Write DataFrame to a database table
 
 :::{style="text-align: center;"}
-![](figures/sql-table.webp){width=70%}
+[![](figures/sql-table.webp){width="70%"}](#){data-modal-type="image" data-modal-url="figures/sql-table.webp"}
 :::
 :::
 :::
@@ -590,8 +570,8 @@ Going beyond basic queries:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/distributed.png){width=100%}
-![](figures/dask-dashboard03.png){width=80%}
+[![](figures/distributed.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/distributed.png"}
+[![](figures/dask-dashboard03.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/dask-dashboard03.png"}
 :::
 :::
 :::
@@ -684,7 +664,7 @@ Example Dockerfile
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -50px;"}
-![](figures/meme-programming.png){width=100%}
+[![](figures/meme-programming.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/meme-programming.png"}
 :::
 :::
 :::

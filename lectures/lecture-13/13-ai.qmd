@@ -15,6 +15,7 @@ scrollable: true
 engine: knitr
 revealjs-plugins:
   - fontawesome
+  - multimodal
 editor:
   render-on-save: true
 ---
@@ -78,7 +79,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/ollama.png){width=80%}
+[![](figures/ollama.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/ollama.png"}
 
 <https://ollama.com/>
 :::
@@ -102,7 +103,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/ollama-deepseek.png){width=100%}
+[![](figures/ollama-deepseek.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ollama-deepseek.png"}
 
 <https://ollama.com/library/deepseek-r1:7b>
 :::
@@ -119,7 +120,7 @@ editor:
 - You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models
 
 :::{style="text-align: center;"}
-![](figures/ollama-deepseek.png){width=100%}
+[![](figures/ollama-deepseek.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ollama-deepseek.png"}
 :::
 :::
 
@@ -246,7 +247,7 @@ opposite.
 - Finally, `ollama run ironic_jeeves` to start the model
 
 :::{style="text-align: center;"}
-![](figures/ollama-jeeves.png){width=100%}
+[![](figures/ollama-jeeves.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ollama-jeeves.png"}
 :::
 :::
 
@@ -282,7 +283,7 @@ opposite.
 
 :::{.column width="60%"}
 :::{style="text-align: center;"}
-![](figures/lmstudio.png){width=100%}
+[![](figures/lmstudio.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/lmstudio.png"}
 
 <https://lmstudio.ai/>
 :::
@@ -293,13 +294,13 @@ opposite.
 ## Running a model in LM Studio
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/lmstudio2.png){width=100%}
+[![](figures/lmstudio2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/lmstudio2.png"}
 :::
 
 ## Running a model in LM Studio
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/lmstudio3.png){width=100%}
+[![](figures/lmstudio3.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/lmstudio3.png"}
 :::
 
 # LLM APIs 🧑🏻‍💻 {background-color="#2d4563"}
@@ -321,7 +322,7 @@ opposite.
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/api.webp){width=100%}
+[![](figures/api.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/api.webp"}
 
 Source: [Cloud Now](https://www.cloudnowtech.com/blog/what-are-apis-and-why-do-they-matter/)
 :::
@@ -347,7 +348,7 @@ Source: [Cloud Now](https://www.cloudnowtech.com/blog/what-are-apis-and-why-do-t
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/roocode.png){width=100%}
+[![](figures/roocode.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/roocode.png"}
 
 Documentation: <https://docs.roocode.com/>
 :::
@@ -372,7 +373,7 @@ Documentation: <https://docs.roocode.com/>
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/roocode-setup.png){width=90%}
+[![](figures/roocode-setup.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/roocode-setup.png"}
 :::
 :::
 :::
@@ -393,7 +394,7 @@ Documentation: <https://docs.roocode.com/>
 
 :::{.column width="60%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/openrouter.png){width=100%}
+[![](figures/openrouter.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/openrouter.png"}
 
 <https://openrouter.ai/>
 :::
@@ -417,7 +418,7 @@ Documentation: <https://docs.roocode.com/>
 
 :::{.column width="60%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/openrouter2.png){width=100%}
+[![](figures/openrouter2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/openrouter2.png"}
 
 <https://openrouter.ai/settings/keys>
 :::
@@ -440,7 +441,7 @@ Documentation: <https://docs.roocode.com/>
 ## Adding API keys
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/roocode-models.png){width=50%}
+[![](figures/roocode-models.png){width="50%"}](#){data-modal-type="image" data-modal-url="figures/roocode-models.png"}
 :::
 
 ## Running a model in Roo Code
@@ -448,11 +449,11 @@ Documentation: <https://docs.roocode.com/>
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/roocode-run.png){width=100%}
+[![](figures/roocode-run.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/roocode-run.png"}
 :::
 
 :::{.column width="50%"}
-![](figures/roocode-result.png){width=100%}
+[![](figures/roocode-result.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/roocode-result.png"}
 :::
 :::
 :::
@@ -490,11 +491,11 @@ Documentation: <https://docs.roocode.com/>
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/roocode-agent.png){width=100%}
+[![](figures/roocode-agent.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/roocode-agent.png"}
 :::
 
 :::{.column width="50%"}
-![](figures/roocode-agent2.png){width=100%}
+[![](figures/roocode-agent2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/roocode-agent2.png"}
 :::
 :::
 :::
@@ -503,7 +504,7 @@ Documentation: <https://docs.roocode.com/>
 ### Completely automated! 🤖
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/api.png){width=100%}
+[![](figures/api.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/api.png"}
 :::
 
 # Cool, right? 🤓 {background-color="#2d4563"}
@@ -523,7 +524,7 @@ Documentation: <https://docs.roocode.com/>
 
 :::{.column width="50%"}
 :::{style="text-align: center; text-align: center;"}
-![](figures/cline.png){width=100%}
+[![](figures/cline.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/cline.png"}
 
 <https://cline.bot/>
 :::
@@ -545,11 +546,11 @@ Documentation: <https://docs.roocode.com/>
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/qwen.png){width=100%}
+[![](figures/qwen.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/qwen.png"}
 
 <https://github.com/QwenLM/qwen-code>
 
-![](figures/gemini.png){width=100%}
+[![](figures/gemini.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/gemini.png"}
 
 <https://github.com/google-gemini/gemini-cli>
 :::
@@ -574,7 +575,7 @@ Documentation: <https://docs.roocode.com/>
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/browse-use.png){width=100%}
+[![](figures/browse-use.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/browse-use.png"}
 
 <https://browser-use.com/>
 :::
@@ -596,7 +597,7 @@ Documentation: <https://docs.roocode.com/>
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/web-ui.png){width=100%}
+[![](figures/web-ui.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/web-ui.png"}
 
 <https://github.com/browser-use/web-ui>
 :::
@@ -698,19 +699,19 @@ DEEPSEEK_API_KEY=
 ## Browser-use Web-ui in action
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/webui01.png){width=100%}
+[![](figures/webui01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/webui01.png"}
 :::
 
 ## Browser-use Web-ui in action
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/webui02.png){width=100%}
+[![](figures/webui02.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/webui02.png"}
 :::
 
 ## Browser-use Web-ui in action
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/webui03.png){width=100%}
+[![](figures/webui03.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/webui03.png"}
 :::
 
 ## Browser-use Web-ui in action
@@ -719,7 +720,7 @@ DEEPSEEK_API_KEY=
 Task: `go to google.com and find out who won the Oscar for best international film in 2025`
 
 :::{style="text-align: center;"}
-![](figures/webui04.png){width=100%}
+[![](figures/webui04.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/webui04.png"}
 :::
 :::
 
@@ -729,7 +730,7 @@ Task: `go to google.com and find out who won the Oscar for best international fi
 Result: `The Guardian article says 'I’m Still Here wins Oscar for best international film, becoming first Brazilian film to do so'`
 
 :::{style="text-align: center;"}
-![](figures/webui05.png){width=100%}
+[![](figures/webui05.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/webui05.png"}
 :::
 :::
 

@@ -40,7 +40,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -40px;"}
-![](figures/parallel.png)
+[![](figures/parallel.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/parallel.png"}
 :::
 :::
 :::
@@ -61,7 +61,7 @@ editor:
 
 :::{.column width="55%"}
 :::{style="text-align: center;"}
-![](figures/meme01.png)
+[![](figures/meme01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/meme01.png"}
 :::
 :::
 :::
@@ -154,13 +154,13 @@ print(f"Dask dashboard is available at: {cluster.dashboard_link}")
 ## Dask Client Dashboard
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/dask-dashboard01.png)
+[![](figures/dask-dashboard01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/dask-dashboard01.png"}
 :::
 
 ## Dask Client Dashboard
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/dask-dashboard02.png)
+[![](figures/dask-dashboard02.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/dask-dashboard02.png"}
 :::
 
 ## Testing the Dask Client
@@ -240,13 +240,13 @@ client = Client(cluster)
 ## Testing the Dask Client
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/dask-dashboard03.png)
+[![](figures/dask-dashboard03.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/dask-dashboard03.png"}
 :::
 
 ## Testing the Dask Client
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/dask-dashboard04.png)
+[![](figures/dask-dashboard04.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/dask-dashboard04.png"}
 :::
 
 # Dask ML 🤖 {background-color="#2d4563"}
@@ -254,7 +254,7 @@ client = Client(cluster)
 ## Dimensions of Scale
 
 :::{style="font-size: 22px; text-align: center;"}
-![](figures/dimensions-of-scale.png){width="55%"}
+[![](figures/dimensions-of-scale.png){width="55%"}](#){data-modal-type="image" data-modal-url="figures/dimensions-of-scale.png"}
 :::
 
 ## Addressing the Challenges
@@ -341,7 +341,7 @@ from sklearn.svm import SVC
 - The main task here is to predict the digit from the image
 
 :::{style="text-align: center;"}
-![](figures/digits.png){width="65%"} 
+[![](figures/digits.png){width="65%"}](#){data-modal-type="image" data-modal-url="figures/digits.png"}
 :::
 :::
 
@@ -677,7 +677,7 @@ m.plot(forecast)
 - We can then compare the forecasted values to the actual values
 
 :::{style="text-align: center;"}
-![](figures/diagnostics_4_0.png){width="50%"}
+[![](figures/diagnostics_4_0.png){width="50%"}](#){data-modal-type="image" data-modal-url="figures/diagnostics_4_0.png"}
 :::
 :::
 
@@ -697,7 +697,7 @@ df_cv.head()
 ```
 
 :::{style="text-align: center;"}
-![](figures/prophet.png){width="65%"}
+[![](figures/prophet.png){width="65%"}](#){data-modal-type="image" data-modal-url="figures/prophet.png"}
 :::
 :::
 
@@ -732,7 +732,7 @@ df_cv.head()
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/docker.png)
+[![](figures/docker.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker.png"}
 :::
 :::
 :::

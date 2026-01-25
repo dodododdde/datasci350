@@ -42,7 +42,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/ollama.png){width=70%}
+[![](figures/ollama.png){width="70%"}](#){data-modal-type="image" data-modal-url="figures/ollama.png"}
 
 <https://ollama.com>
 :::
@@ -68,7 +68,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/webui.png){width=100%}
+[![](figures/webui.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/webui.png"}
 
 <https://github.com/browser-use/web-ui>
 :::
@@ -103,7 +103,7 @@ If the video doesn't play, please click [here](https://www.youtube.com/watch?v=L
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/amazon.png){width=100%}
+[![](figures/amazon.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/amazon.png"}
 
 Source: [GeekWire (2025)](https://www.geekwire.com/2025/amazons-quarterly-profits-soar-to-a-record-20-billion-but-cloud-growth-comes-up-short/)
 :::
@@ -175,7 +175,7 @@ Source: [GeekWire (2025)](https://www.geekwire.com/2025/amazons-quarterly-profit
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/animoto.jpg){width=100%}
+[![](figures/animoto.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/animoto.jpg"}
 
 Source: [Jeff Bezos' talk at Stanford in 2008](https://youtu.be/6nKfFHuouzA?si=M5LCwMxMUC5Ay3oY)
 :::
@@ -199,7 +199,7 @@ Source: [Jeff Bezos' talk at Stanford in 2008](https://youtu.be/6nKfFHuouzA?si=M
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/wapo.png){width=100%}
+[![](figures/wapo.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/wapo.png"}
 
 Source: [The Washington Post](https://www.washingtonpost.com/archive/politics/2008/03/21/hillary-clinton-in-the-white-house/200a2e1f-efb4-469a-b5dd-05e87675b598/)
 :::
@@ -228,14 +228,14 @@ Source: [The Washington Post](https://www.washingtonpost.com/archive/politics/20
 ### SaaS
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/saas.jpg){width=70%}
+[![](figures/saas.jpg){width="70%"}](#){data-modal-type="image" data-modal-url="figures/saas.jpg"}
 :::
 
 ## Cloud computing services
 ### PaaS
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/paas.png){width=100%}
+[![](figures/paas.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/paas.png"}
 :::
 
 ## Cloud computing services
@@ -256,14 +256,14 @@ Source: [The Washington Post](https://www.washingtonpost.com/archive/politics/20
 ### FaaS
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/faas.png){width=80%}
+[![](figures/faas.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/faas.png"}
 :::
 
 ## Cloud computing services
 ### IaaS
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/iaas.png){width=80%}
+[![](figures/iaas.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/iaas.png"}
 :::
 
 ## Comparison of cloud services
@@ -333,7 +333,7 @@ Source: [The Washington Post](https://www.washingtonpost.com/archive/politics/20
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/middleware.avif){width=100%}
+[![](figures/middleware.avif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/middleware.avif"}
 :::
 :::
 :::
@@ -355,7 +355,7 @@ Source: [The Washington Post](https://www.washingtonpost.com/archive/politics/20
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/virtualisation.png){width=100%}
+[![](figures/virtualisation.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/virtualisation.png"}
 
 More about [virtualisation](https://www.redhat.com/en/topics/virtualization/what-is-virtualization)
 :::
@@ -366,7 +366,7 @@ More about [virtualisation](https://www.redhat.com/en/topics/virtualization/what
 ## The Big Three ☁️
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/market.jpeg){width=50%}
+[![](figures/market.jpeg){width="50%"}](#){data-modal-type="image" data-modal-url="figures/market.jpeg"}
 :::
 
 ## Amazon Web Services (AWS)
@@ -386,7 +386,7 @@ More about [virtualisation](https://www.redhat.com/en/topics/virtualization/what
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/aws.png){width=100%}
+[![](figures/aws.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/aws.png"}
 
 <https://aws.amazon.com>
 :::
@@ -418,7 +418,7 @@ More about [virtualisation](https://www.redhat.com/en/topics/virtualization/what
 - Scaling [is not]{.alert} included!
 
 :::{style="text-align: center;"}
-![](figures/ec2meme.jpg){width=100%}
+[![](figures/ec2meme.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ec2meme.jpg"}
 :::
 :::
 :::
@@ -438,7 +438,7 @@ More about [virtualisation](https://www.redhat.com/en/topics/virtualization/what
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/auto-scaling.png){width=100%}
+[![](figures/auto-scaling.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/auto-scaling.png"}
 
 Source: [AWS](https://aws.amazon.com/autoscaling)
 :::
@@ -462,7 +462,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/elb.png){width=100%}
+[![](figures/elb.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/elb.png"}
 :::
 :::
 :::
@@ -486,7 +486,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/s3.png){width=100%}
+[![](figures/s3.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/s3.png"}
 
 <https://aws.amazon.com/s3/>
 :::
@@ -512,7 +512,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/ebs.webp){width=100%}
+[![](figures/ebs.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/ebs.webp"}
 
 <https://aws.amazon.com/ebs/>
 :::
@@ -536,7 +536,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/efs.png){width=50%}
+[![](figures/efs.png){width="50%"}](#){data-modal-type="image" data-modal-url="figures/efs.png"}
 <https://aws.amazon.com/efs/>
 :::
 :::
@@ -560,7 +560,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/rds.png){width=60%}
+[![](figures/rds.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/rds.png"}
 
 <https://aws.amazon.com/rds/>
 :::
@@ -587,7 +587,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/sagemaker.png){width=100%}
+[![](figures/sagemaker.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/sagemaker.png"}
 
 <https://aws.amazon.com/sagemaker/>
 :::
@@ -616,7 +616,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/aws-registration.png){width=100%}
+[![](figures/aws-registration.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/aws-registration.png"}
 
 <https://aws.amazon.com/free/>
 :::
@@ -642,7 +642,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 ## Managing an AWS account
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/billing.png){width=80%}
+[![](figures/billing.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/billing.png"}
 :::
 
 # Amazon Transcribe 🎤 {background-color="#2d4563"}
@@ -662,7 +662,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/s3-search.png){width=100%}
+[![](figures/s3-search.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/s3-search.png"}
 :::
 :::
 :::
@@ -673,11 +673,11 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/s3-create.png){width=100%}
+[![](figures/s3-create.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/s3-create.png"}
 :::
 
 :::{.column width="50%"}
-![](figures/s3-bucket.png){width=100%}
+[![](figures/s3-bucket.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/s3-bucket.png"}
 :::
 :::
 :::
@@ -685,7 +685,7 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 ## S3 bucket
 
 :::{style="margin-top: 30px; font-size: 25px; text-align: center;"}
-![](figures/s3-bucket2.png){width=90%}
+[![](figures/s3-bucket2.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/s3-bucket2.png"}
 
 Then click on the bucket and upload the file
 :::
@@ -704,7 +704,7 @@ Then click on the bucket and upload the file
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/transcription.png){width=100%}
+[![](figures/transcription.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/transcription.png"}
 :::
 :::
 :::
@@ -715,11 +715,11 @@ Then click on the bucket and upload the file
 :::{style="margin-top: 30px; font-size: 25px; text-align: center;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/details.png){width=100%}
+[![](figures/details.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/details.png"}
 :::
 
 :::{.column width="50%"}
-![](figures/details2.png){width=100%}
+[![](figures/details2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/details2.png"}
 :::
 :::
 :::
@@ -729,11 +729,11 @@ Then click on the bucket and upload the file
 :::{style="margin-top: 30px; font-size: 25px; text-align: center;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/results2.png){width=100%}
+[![](figures/results2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/results2.png"}
 :::
 
 :::{.column width="50%"}
-![](figures/results.png){width=100%}
+[![](figures/results.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/results.png"}
 :::
 :::
 :::
@@ -758,7 +758,7 @@ Then click on the bucket and upload the file
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/cloud-meme.webp){width=100%}
+[![](figures/cloud-meme.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/cloud-meme.webp"}
 :::
 :::
 :::

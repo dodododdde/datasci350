@@ -15,27 +15,16 @@ scrollable: true
 engine: python3
 revealjs-plugins:
   - fontawesome
+  - multimodal
 editor:
   render-on-save: true
 ---
 
 # I hope you're having a lovely day! 😊 {background-color="#2d4563"}
 
-## Emory Data Science Club: Fall Info Session
-
-:::{style="margin-top: 30px; text-align: center;"}
-![](figures/info-session01.png){width="75%"}
-:::
-
-## Emory Data Science Club: Fall Info Session
-
-:::{style="margin-top: 30px; text-align: center;"}
-![](figures/info-session02.png)
-:::
-
 ## Some tips on folder and project management
 
-:::{style="margin-top: 30px; font-size: 20px;"}
+:::{style="margin-top: 30px; font-size: 19px;"}
 :::{.columns}
 :::{.column width="50%"}
 - macOS organises files and applications in a hierarchical folder structure 
@@ -54,8 +43,8 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/folders.png)
-![](figures/home-folder.png)
+[![](figures/folders.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/folders.png"}
+[![](figures/home-folder.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/home-folder.png"}
 :::
 :::
 :::
@@ -81,8 +70,8 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/github-folder.png)
-![](figures/github-folder02.png)
+[![](figures/github-folder.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/github-folder.png"}
+[![](figures/github-folder02.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/github-folder02.png"}
 :::
 :::
 :::
@@ -108,7 +97,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/flux01.png)
+[![](figures/flux01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/flux01.png"}
 :::
 :::
 :::
@@ -129,8 +118,8 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/wolfram.png)
-![](figures/wolfram02.png)
+[![](figures/wolfram.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/wolfram.png"}
+[![](figures/wolfram02.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/wolfram02.png"}
 :::
 :::
 :::
@@ -151,7 +140,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/abstraction.png){width="80%"}
+[![](figures/abstraction.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/abstraction.png"}
 
 Source: [Taulli (2024)](https://www.oreilly.com/library/view/ai-assisted-programming/9781098164553/).
 
@@ -181,9 +170,9 @@ Source: [Taulli (2024)](https://www.oreilly.com/library/view/ai-assisted-program
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/tokens.png)
+[![](figures/tokens.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/tokens.png"}
 
-![](figures/unsupervised.webp)
+[![](figures/unsupervised.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/unsupervised.webp"}
 :::
 :::
 :::
@@ -206,9 +195,9 @@ Source: [Taulli (2024)](https://www.oreilly.com/library/view/ai-assisted-program
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/dropout.png)
+[![](figures/dropout.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/dropout.png"}
 
-![](figures/overfitting.jpg){width="80%"}
+[![](figures/overfitting.jpg){width="80%"}](#){data-modal-type="image" data-modal-url="figures/overfitting.jpg"}
 :::
 :::
 :::
@@ -263,7 +252,7 @@ Source: [Taulli (2024)](https://www.oreilly.com/library/view/ai-assisted-program
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/quadratic.png)
+[![](figures/quadratic.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/quadratic.png"}
 :::
 :::
 :::
@@ -291,7 +280,7 @@ Source: [Taulli (2024)](https://www.oreilly.com/library/view/ai-assisted-program
 - Can you spot the bias?
 
 :::{style="text-align: center;"}
-![](figures/biases.jpg)
+[![](figures/biases.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/biases.jpg"}
 :::
 :::
 :::
@@ -301,7 +290,7 @@ Source: [Taulli (2024)](https://www.oreilly.com/library/view/ai-assisted-program
 ### Bias
 
 :::{style="margin-top: 30px; text-align: center;"}
-![](figures/biases02.png){width="75%"}
+[![](figures/biases02.png){width="75%"}](#){data-modal-type="image" data-modal-url="figures/biases02.png"}
 
 <https://www.nature.com/articles/s41598-023-42384-8>
 :::
@@ -320,7 +309,7 @@ Source: [Taulli (2024)](https://www.oreilly.com/library/view/ai-assisted-program
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/europe.png)
+[![](figures/europe.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/europe.png"}
 :::
 :::
 :::
@@ -340,7 +329,7 @@ Source: [Taulli (2024)](https://www.oreilly.com/library/view/ai-assisted-program
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/stupid.png)
+[![](figures/stupid.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/stupid.png"}
 
 More here: <https://matthewbutterick.com/chron/this-copilot-is-stupid-and-wants-to-kill-me.html>
 :::
@@ -363,7 +352,7 @@ More here: <https://matthewbutterick.com/chron/this-copilot-is-stupid-and-wants-
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/security.png)
+[![](figures/security.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/security.png"}
 
 More here: <https://www.techrepublic.com/article/ai-generated-code-outages/>
 :::
@@ -389,7 +378,7 @@ More here: <https://www.techrepublic.com/article/ai-generated-code-outages/>
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/components.png)
+[![](figures/components.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/components.png"}
 
 Source: [Tulio (2024)](https://www.oreilly.com/library/view/ai-assisted-programming/9781098164553/).
 
@@ -416,7 +405,7 @@ Source: [Tulio (2024)](https://www.oreilly.com/library/view/ai-assisted-programm
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/context.png)
+[![](figures/context.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/context.png"}
 
 Source: <https://chatgpt.com/share/6e0c2115-6fd0-497d-a662-44cb0434cee2>
 :::
@@ -437,7 +426,7 @@ Source: <https://chatgpt.com/share/6e0c2115-6fd0-497d-a662-44cb0434cee2>
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/prompt-elements.png)
+[![](figures/prompt-elements.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/prompt-elements.png"}
 
 Source: <https://learn.microsoft.com/en-us/copilot/security/prompting-tips>
 :::
@@ -459,7 +448,7 @@ Source: <https://learn.microsoft.com/en-us/copilot/security/prompting-tips>
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/instructions.png)
+[![](figures/instructions.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/instructions.png"}
 
 Source: <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api>
 :::
@@ -480,7 +469,7 @@ Source: <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-e
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/format.png)
+[![](figures/format.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/format.png"}
 :::
 :::
 :::
@@ -502,7 +491,7 @@ Source: <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-e
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/copilot.jpeg)
+[![](figures/copilot.jpeg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/copilot.jpeg"}
 
 <https://github.com/features/copilot>
 :::
@@ -525,7 +514,7 @@ Source: <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-e
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/unexpectedcopilot2.webp)
+[![](figures/unexpectedcopilot2.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/unexpectedcopilot2.webp"}
 :::
 :::
 :::
@@ -536,14 +525,14 @@ Source: <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-e
 :::{style="margin-top: 30px; font-size: 21px;"}
 - In an empty file/code cell, VS Code will display a greyed-out piece of text as follows:
 
-![](figures/prompt_invitation.png)
+[![](figures/prompt_invitation.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/prompt_invitation.png"}
 
 - If you press `Ctrl + I` (Windows/Linux) or `Cmd + I` (macOS), a text box will appear into which you can write a prompt
 - Copilot will suggest new code, or changes to existing code based on this prompt
 - These may be in the form of one or more proposed changes
 - You may choose to accept each of these changes by clicking the Accept or Discard buttons
 
-![](figures/bubble_sort.png)
+[![](figures/bubble_sort.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/bubble_sort.png"}
 :::
 
 ## In-Editor Prompting
@@ -553,7 +542,7 @@ Source: <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-e
 - This can be useful if you have a piece of code that you think could be improved, or if you want to see alternative ways of writing the same code
 - When you do this, you can also click on the button next to Accept and Discard to see which code Copilot is suggesting removing for each change
 
-![](figures/relative_std.gif)
+[![](figures/relative_std.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/relative_std.gif"}
 :::
 
 ## In-Editor Prompting
@@ -575,7 +564,7 @@ Source: <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-e
 - You can ask Copilot to generate documentation for a piece of code by using the `/doc` command
 
 :::{style="text-align: center;"}
-![](figures/doc_command.png){width="100%"}
+[![](figures/doc_command.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/doc_command.png"}
 :::
 :::
 
@@ -585,7 +574,7 @@ Source: <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-e
 - Use `/tests` on a function or snippet, and Copilot Chat will generate relevant test cases
 
 :::{style="text-align: center;"}
-![](figures/tests.png){width="100%"}
+[![](figures/tests.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/tests.png"}
 :::
 :::
 
@@ -608,7 +597,7 @@ were changed?
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/github_search.png){width="70%"}
+[![](figures/github_search.png){width="70%"}](#){data-modal-type="image" data-modal-url="figures/github_search.png"}
 :::
 :::
 :::
@@ -630,7 +619,7 @@ were changed?
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/websearch.png){width="70%"}
+[![](figures/websearch.png){width="70%"}](#){data-modal-type="image" data-modal-url="figures/websearch.png"}
 :::
 :::
 :::
@@ -669,7 +658,7 @@ gh codespace delete -c CODESPACE-NAME
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -30px;"}
-![](figures/codespaces-extension.png)
+[![](figures/codespaces-extension.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/codespaces-extension.png"}
 
 More information here: <https://docs.github.com/en/codespaces/developing-in-a-codespace>
 :::
@@ -680,31 +669,31 @@ More information here: <https://docs.github.com/en/codespaces/developing-in-a-co
 ## GitHub Codespaces
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/codespaces.png){width="80%"}
+[![](figures/codespaces.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/codespaces.png"}
 :::
 
 ## GitHub Codespaces
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/codespaces01.png){width="80%"}
+[![](figures/codespaces01.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/codespaces01.png"}
 :::
 
 ## GitHub Codespaces
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/codespaces02.png){width="80%"}
+[![](figures/codespaces02.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/codespaces02.png"}
 :::
 
 ## GitHub Codespaces
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/codespaces03.png){width="80%"}
+[![](figures/codespaces03.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/codespaces03.png"}
 :::
 
 ## GitHub Codespaces
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-![](figures/codespaces04.png){width="80%"}
+[![](figures/codespaces04.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/codespaces04.png"}
 :::
 
 # That's all for today! 🎉 {background-color="#2d4563"}

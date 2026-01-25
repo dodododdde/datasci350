@@ -16,6 +16,7 @@ scrollable: true
 engine: python3
 revealjs-plugins:
   - fontawesome
+  - multimodal
 editor:
   render-on-save: true
 ---
@@ -37,8 +38,8 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/parallel.png)
-![](figures/parallel02.png){width='80%'}
+[![](figures/parallel.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/parallel.png"}
+[![](figures/parallel02.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/parallel02.png"}
 :::
 :::
 :::
@@ -62,7 +63,7 @@ editor:
 
 :::{.column width="55%"}
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/docker-meme.jpg){width='60%'}
+[![](figures/docker-meme.jpg){width="60%"}](#){data-modal-type="image" data-modal-url="figures/docker-meme.jpg"}
 :::
 :::
 :::
@@ -85,7 +86,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/dependencies.png)
+[![](figures/dependencies.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/dependencies.png"}
 :::
 :::
 :::
@@ -155,7 +156,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello w
 - 90% of researchers believe that there is a reproducibility crisis in science
 
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/reproducibility.webp){width='80%'}
+[![](figures/reproducibility.webp){width="80%"}](#){data-modal-type="image" data-modal-url="figures/reproducibility.webp"}
 :::
 :::
 :::
@@ -165,7 +166,7 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello w
 
 :::{style="margin-top: 30px; font-size: 22px;"}
 :::{style="text-align: center;"}
-![](figures/trade-off.png){width='80%'}
+[![](figures/trade-off.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/trade-off.png"}
 :::
 
 - How far should we go to ensure that our results are reproducible?
@@ -571,43 +572,43 @@ python_version = "3.12"
 ## The challenge
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/p01.png)
+[![](figures/p01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/p01.png"}
 :::
 
 ## The matrix from hell
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/p02.png){width='80%'}
+[![](figures/p02.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/p02.png"}
 :::
 
 ## Cargo transport pre-1960
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/p03.png)
+[![](figures/p03.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/p03.png"}
 :::
 
 ## Also a matrix from hell
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/p04.png)
+[![](figures/p04.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/p04.png"}
 :::
 
 ## The solution: intermodal containers
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/p05.png)
+[![](figures/p05.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/p05.png"}
 :::
 
 ## Docker is a container for your code
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/p06.png)
+[![](figures/p06.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/p06.png"}
 :::
 
 ## Docker eliminates the matrix from hell
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/p07.png){width='80%'}
+[![](figures/p07.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/p07.png"}
 :::
 
 ## What are software containers?
@@ -678,13 +679,13 @@ Docker version 28.5.2, build ecc6942
 ## Docker desktop
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/docker-desktop.png){width='85%'}
+[![](figures/docker-desktop.png){width="85%"}](#){data-modal-type="image" data-modal-url="figures/docker-desktop.png"}
 :::
 
 ## Docker architecture
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/docker-architecture.png){width='85%'}
+[![](figures/docker-architecture.png){width="85%"}](#){data-modal-type="image" data-modal-url="figures/docker-architecture.png"}
 :::
 
 ## Let's create our first container 🐳
@@ -704,7 +705,7 @@ Docker version 28.5.2, build ecc6942
 
 :::{.column width="30%"}
 :::{style="text-align: center;"}
-![](figures/docker.webp)
+[![](figures/docker.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker.webp"}
 :::
 :::
 :::
@@ -760,19 +761,19 @@ docker build -t datasci350-example .
 ## Let's see how it looks like
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/docker-build.png){width='90%'}
+[![](figures/docker-build.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/docker-build.png"}
 :::
 
 ## Looks pretty good! 👍
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/docker-build02.png){width='90%'}
+[![](figures/docker-build02.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/docker-build02.png"}
 :::
 
 ## Looks pretty good! 👍
 
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
-![](figures/docker-build03.png){width='90%'}
+[![](figures/docker-build03.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/docker-build03.png"}
 :::
 
 ## Let's run and share the container! 🏃‍♂️
@@ -814,7 +815,7 @@ docker push danilofreire/datasci350-example:latest
 :::{style="margin-top: 30px; font-size: 20px; text-align: center;"}
 Link: <https://hub.docker.com/r/danilofreire/datasci350-example>
 
-![](figures/docker-hub-image.png){width='90%'}
+[![](figures/docker-hub-image.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/docker-hub-image.png"}
 :::
 
 ## Docker pull
@@ -858,10 +859,10 @@ docker run danilofreire/datasci350-example:latest
 :::{style="text-align: center;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/docker-meme02.jpg)
+[![](figures/docker-meme02.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker-meme02.jpg"}
 :::
 :::{.column width="50%"}
-![](figures/docker-meme03.webp)
+[![](figures/docker-meme03.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/docker-meme03.webp"}
 :::
 :::
 :::

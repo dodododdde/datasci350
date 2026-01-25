@@ -13,6 +13,8 @@ format:
 transition: slide
 transition-speed: default
 scrollable: true
+revealjs-plugins:
+  - multimodal
 engine: python3
 editor:
   render-on-save: true
@@ -43,7 +45,7 @@ editor:
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/xkcd2.png)
+[![](figures/xkcd2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/xkcd2.png"}
 :::
 :::
 :::
@@ -67,9 +69,9 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/pages.jpg){width="55%"}
-![](figures/copilot.jpeg){width="55%"}
-![](figures/cli-logo.png){width="55%"}
+[![](figures/pages.jpg){width="55%"}](#){data-modal-type="image" data-modal-url="figures/pages.jpg"}
+[![](figures/copilot.jpeg){width="55%"}](#){data-modal-type="image" data-modal-url="figures/copilot.jpeg"}
+[![](figures/cli-logo.png){width="55%"}](#){data-modal-type="image" data-modal-url="figures/cli-logo.png"}
 :::
 :::
 :::
@@ -93,7 +95,7 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/push-pull.png){width="150%"}
+[![](figures/push-pull.png){width="150%"}](#){data-modal-type="image" data-modal-url="figures/push-pull.png"}
 :::
 :::
 :::
@@ -136,7 +138,7 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/remote-add.png){width="100%"}
+[![](figures/remote-add.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/remote-add.png"}
 
 - You may note that my branch was called `main` not `master`
 - There is a movement to change the default branch name from `master` to `main`. [More here.](https://github.com/github/renaming)
@@ -194,8 +196,8 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/add-file.png){width="100%"}
-![](figures/gitignore.png){width="100%"}
+[![](figures/add-file.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/add-file.png"}
+[![](figures/gitignore.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/gitignore.png"}
 :::
 :::
 :::
@@ -213,7 +215,7 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/pull.png){width="100%"}
+[![](figures/pull.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/pull.png"}
 :::
 :::
 :::
@@ -235,8 +237,8 @@ Today we will cover
 - Let me change the `.gitignore` file both in my computer and on GitHub, and commit the changes (do not push yet)
 
 :::{style="text-align: center;"}
-![](figures/vim.png){width="100%"}
-![](figures/changes-computer.png){width="100%"}
+[![](figures/vim.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/vim.png"}
+[![](figures/changes-computer.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/changes-computer.png"}
 :::
 :::
 :::
@@ -249,7 +251,7 @@ Today we will cover
 :::{.column size="50%"}
 - I've changed the same line of code on GitHub
 
-![](figures/changes-github.png){width="100%"}
+[![](figures/changes-github.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/changes-github.png"}
 
 - Let's see what happens if I try to pull the changes to my local computer
 :::
@@ -258,7 +260,7 @@ Today we will cover
 - Oh no! 😱
 
 :::{style="text-align: center;"}
-![](figures/conflict.png){width="100%"}
+[![](figures/conflict.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/conflict.png"}
 :::
 :::
 :::
@@ -282,13 +284,13 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/vim-conflict.png){width="100%"}
+[![](figures/vim-conflict.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/vim-conflict.png"}
 :::
 
 - I will delete some lines and keep the changes from my computer
   
 :::{style="text-align: center;"}
-![](figures/vim-conflict2.png){width="100%"}
+[![](figures/vim-conflict2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/vim-conflict2.png"}
 :::
 :::
 :::
@@ -301,7 +303,7 @@ Today we will cover
 :::{.column size="50%"}
 - Now the conflict is resolved! 🥳
 
-![](figures/vim-conflict3.png){width="100%"}
+[![](figures/vim-conflict3.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/vim-conflict3.png"}
 :::
 
 :::{.column size="50%"}
@@ -310,7 +312,7 @@ Today we will cover
 - But it is good to know how to resolve conflicts manually 😊
 
 :::{style="text-align: center;"}
-![](figures/resolved.png){width="100%"}
+[![](figures/resolved.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/resolved.png"}
 
 <https://github.com/danilofreire/my-project>
 :::
@@ -336,7 +338,7 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/branches.png){width="100%"}
+[![](figures/branches.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/branches.png"}
 :::
 
 - Branches may or may not be merged back to the `master` branch
@@ -361,7 +363,7 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/branch.png){width="100%"}
+[![](figures/branch.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/branch.png"}
 :::
 :::
 :::
@@ -386,7 +388,7 @@ Today we will cover
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/merge-branch.png){width="100%"}
+[![](figures/merge-branch.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/merge-branch.png"}
 
 More about branches [here](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell).
 :::
@@ -419,7 +421,7 @@ More about branches [here](https://git-scm.com/book/en/v2/Git-Branching-Branches
 - For collaborative projects, prefer branching over resetting to avoid disrupting others
 
 :::{style="text-align: center;"}
-![](figures/git-checkout.png){width="100%"}
+[![](figures/git-checkout.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/git-checkout.png"}
 :::
 :::
 :::
@@ -442,7 +444,7 @@ More about branches [here](https://git-scm.com/book/en/v2/Git-Branching-Branches
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/git-checkout2.png){width="100%"}
+[![](figures/git-checkout2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/git-checkout2.png"}
 :::
 :::
 :::
@@ -470,7 +472,7 @@ More about branches [here](https://git-scm.com/book/en/v2/Git-Branching-Branches
 - Cloning the `my-project` repository to a different folder
 
 :::{style="text-align: center;"}
-![](figures/clone.png){width="100%"}
+[![](figures/clone.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/clone.png"}
 :::
 :::
 :::
@@ -491,7 +493,7 @@ More about branches [here](https://git-scm.com/book/en/v2/Git-Branching-Branches
 :::
 
 :::{.column size="50%"}
-![](figures/fork.png){width="100%"}
+[![](figures/fork.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/fork.png"}
 :::
 :::
 :::
@@ -509,14 +511,14 @@ More about branches [here](https://git-scm.com/book/en/v2/Git-Branching-Branches
 ## Forking
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/fork-repo01.png){width="100%"}
+[![](figures/fork-repo01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/fork-repo01.png"}
 :::
 
 ## Forking
 
 :::{style="margin-top: 30px; font-size: 23px;"}
 :::{style="text-align: center;"}
-![](figures/fork-repo02.png){width="60%"}
+[![](figures/fork-repo02.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/fork-repo02.png"}
 :::
 
 - After forking, you will see the repository on your GitHub account
@@ -542,7 +544,7 @@ More about branches [here](https://git-scm.com/book/en/v2/Git-Branching-Branches
 :::
 
 :::{.column size="50%"}
-![](figures/sync-fork.webp){width="100%"}
+[![](figures/sync-fork.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/sync-fork.webp"}
 
 - More about syncing a forked repository [here](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).
 :::
@@ -569,7 +571,7 @@ More about branches [here](https://git-scm.com/book/en/v2/Git-Branching-Branches
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/issues.webp){width="100%"}
+[![](figures/issues.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/issues.webp"}
 Issues
 :::
 :::
@@ -579,7 +581,7 @@ Issues
 ## Pull requests
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/pull-request.png){width="60%"}
+[![](figures/pull-request.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/pull-request.png"}
 Pull requests
 :::
 
@@ -600,7 +602,7 @@ Pull requests
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/gist.png){width="100%"}
+[![](figures/gist.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/gist.png"}
 :::
 :::
 :::
@@ -623,7 +625,7 @@ Pull requests
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/pages.png){width="100%"}
+[![](figures/pages.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/pages.png"}
 :::
 :::
 :::
@@ -647,7 +649,7 @@ Pull requests
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/actions.png){width="100%"}
+[![](figures/actions.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/actions.png"}
 :::
 :::
 :::
@@ -656,7 +658,7 @@ Pull requests
 ## GitHub Actions
 
 :::{style="margin-top: 30px; font-size: 21px; text-align: center;"}
-![](figures/actions2.png){width="82%"}
+[![](figures/actions2.png){width="82%"}](#){data-modal-type="image" data-modal-url="figures/actions2.png"}
 :::
 
 ## GitHub in the command line
@@ -675,7 +677,7 @@ Pull requests
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/cli.png){width="100%"}
+[![](figures/cli.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/cli.png"}
 :::
 :::
 :::
@@ -697,7 +699,7 @@ Pull requests
 
 :::{.column size="50%"}
 :::{style="text-align: center;"}
-![](figures/copilot2.png)
+[![](figures/copilot2.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/copilot2.png"}
 :::
 :::
 :::
@@ -706,19 +708,19 @@ Pull requests
 ## GitHub Copilot
 
 :::{style="margin-top: 30px; font-size: 21px;"}
-![](figures/readme-gif.gif){width="100%"}
+[![](figures/readme-gif.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/readme-gif.gif"}
 :::
 
 ## GitHub Copilot
 
 :::{style="margin-top: 30px; font-size: 21px; text-align: center;"}
-![](figures/copilot4.gif)
+[![](figures/copilot4.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/copilot4.gif"}
 :::
 
 ## GitHub Copilot
 
 :::{style="margin-top: 30px; font-size: 21px; text-align: center;"}
-![](figures/copilot5.webp)
+[![](figures/copilot5.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/copilot5.webp"}
 :::
 
 # Phew! That's all for today! 🎉 {background-color="#2d4563"}

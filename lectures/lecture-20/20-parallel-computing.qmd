@@ -42,8 +42,8 @@ editor:
 
 :::{.column width="55%"}
 :::{style="text-align: center; margin-top: -50px;"}
-![](figures/cores.webp){width="80%"}
-![](figures/dask.png){width="60%"}
+[![](figures/cores.webp){width="80%"}](#){data-modal-type="image" data-modal-url="figures/cores.webp"}
+[![](figures/dask.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/dask.png"}
 :::
 :::
 :::

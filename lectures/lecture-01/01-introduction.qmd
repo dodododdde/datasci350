@@ -13,6 +13,8 @@ format:
     transition: slide
     transition-speed: default
     scrollable: true
+revealjs-plugins:
+  - multimodal
 engine: knitr
 editor:
   render-on-save: true
@@ -49,7 +51,7 @@ if (!require("fontawesome", character.only = TRUE)) {
 }
 ```
 
-# Welcome to DATASCI350 <br> Data Science Computing! 🎉 {background-color="#2d4563"}
+# Welcome to DATASCI 350 <br> Data Science Computing! 🎉 {background-color="#2d4563"}
 
 ## Lecture overview
 ### Today's agenda
@@ -190,7 +192,7 @@ Tell us your name, your major, one thing you really like, and something we don't
 :::
 
 ::: {.column width=30%}
-![](figures/stupid-questions.jpg)
+[![](figures/stupid-questions.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/stupid-questions.jpg"}
 :::
 ::::
 
@@ -198,60 +200,60 @@ Tell us your name, your major, one thing you really like, and something we don't
 
 ## An old classic {transition="none"}
 
-![](figures/venn-orig-1.png){ height=550px style="display: block; margin: auto;" }
+[![](figures/venn-orig-1.png){height="550px" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/venn-orig-1.png"}
 
 ## An old classic {transition="none"}
 
-![](figures/venn-orig-2.png){ height=550px style="display: block; margin: auto;" }
+[![](figures/venn-orig-2.png){height="550px" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/venn-orig-2.png"}
 
 ## An old classic {transition="none"}
 
-![](figures/venn-orig-3.png){ height=550px style="display: block; margin: auto;" }
+[![](figures/venn-orig-3.png){height="550px" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/venn-orig-3.png"}
 
 ## An old classic {transition="none"}
 
-![](figures/venn-orig-4.png){ height=550px style="display: block; margin: auto;" }
+[![](figures/venn-orig-4.png){height="550px" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/venn-orig-4.png"}
 
 ## An old classic {transition="none"}
 
-![](figures/venn-orig-5.png){ height=550px style="display: block; margin: auto;" }
+[![](figures/venn-orig-5.png){height="550px" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/venn-orig-5.png"}
 
 ## Our focus! {transition="none"}
 
-![](figures/venn-focus.png){ height=550px style="display: block; margin: auto;" }
+[![](figures/venn-focus.png){height="550px" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/venn-focus.png"}
 
 ## Rise of the digital information age
 
 :::{style="margin-top: 40px;"}
 :::
 
-![](figures/digital.jpeg){ width=110% style="display: block; margin: auto;" }
+[![](figures/digital.jpeg){height="50%"}](#){data-modal-type="image" data-modal-url="figures/digital.jpeg"}
 
 ## Social media data
 
-![](figures/redes.png){ width=20% style="display: block; margin: auto;" }
+[![](figures/redes.png){width="80%" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/redes.png"}
 
 ## New data formats
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](figures/tweets.png){ width=100% style="display: block; margin: auto;" }
+[![](figures/tweets.png){width="100%" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/tweets.png"}
 :::
 
 ::: {.column width="50%"}
-![](figures/imagescnn.png){ width=100% style="display: block; margin: auto;" }
+[![](figures/imagescnn.png){width="100%" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/imagescnn.png"}
 
-![](figures/audio.png){ width=100% style="display: block; margin: auto;" }
+[![](figures/audio.png){width="100%" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/audio.png"}
 :::
 ::::
 
 ## Survey data
 
-![](figures/survey.png){ width=80% style="display: block; margin: auto;" }
+[![](figures/survey.png){width="60%" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/survey.png"}
 
 ## Cheap computing power
 
-![](figures/collab.png){ width=80% style="display: block; margin: auto;" }
+[![](figures/collab.png){width="80%" style="display: block; margin: auto;"}](#){data-modal-type="image" data-modal-url="figures/collab.png"}
 
 # And what can we do with all these data? `r emo::ji('thinking_face')` {background-color="#2d4563"}
 
@@ -260,28 +262,28 @@ Tell us your name, your major, one thing you really like, and something we don't
 :::{style="margin-top: 40px;"}
 :::
 
-![](figures/scrap.png)
+[![](figures/scrap.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/scrap.png"}
 
 ## Tackling social problems
 
 :::{style="margin-top: 40px;"}
 :::
 
-![](figures/social.png)
+[![](figures/social.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/social.png"}
 
 ## Reducing hate speech
 
 :::{style="margin-top: 40px;"}
 :::
 
-![](figures/hate.png)
+[![](figures/hate.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/hate.png"}
 
 ## Monitoring the effects of climate change on health
 
 :::{style="margin-top: 40px;"}
 :::
 
-![](figures/climate.png)
+[![](figures/climate.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/climate.png"}
 
 ## Calling bullsh*t when you see it
 
@@ -308,7 +310,7 @@ And much more...
 :::
 
 ::: {.column width="70%"}
-![](figures/bullshit.png)
+[![](figures/bullshit.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/bullshit.png"}
 :::
 ::::
 
@@ -347,7 +349,7 @@ And much more...
 :::
 
 ::: {.column width="50%"}
-![](figures/dsc.jpg)
+[![](figures/dsc.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/dsc.jpg"}
 :::
 ::::
 
@@ -397,12 +399,12 @@ And much more...
 
 :::{.columns}
 :::{.column width="50%"}
-![](figures/cli.png)
+[![](figures/cli.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/cli.png"}
 :::
 
 :::{.column width="50%"}
 :::{style="margin-top: 80px;"}
-![](figures/bash.png)
+[![](figures/bash.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/bash.png"}
 :::
 :::
 :::
@@ -414,17 +416,17 @@ And much more...
 :::: {.columns}
 ::: {.column width="33%"}
 :::{style="margin-top: 60px;"}
-![](figures/git.png){width=80%}
+[![](figures/git.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/git.png"}
 :::
 :::
 
 ::: {.column width="33%"}
-![](figures/github.png){width=80%}
+[![](figures/github.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/github.png"}
 :::
 
 ::: {.column width="33%"}
 :::{style="margin-top: -20px;"}
-![](figures/github-copilot.png){width=60%}
+[![](figures/github-copilot.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/github-copilot.png"}
 :::
 :::
 ::::
@@ -435,11 +437,11 @@ And much more...
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](figures/quarto.png)
+[![](figures/quarto.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/quarto.png"}
 :::
 
 ::: {.column width="50%"}
-![](figures/jupyter.png){width="50%"}
+[![](figures/jupyter.png){width="50%"}](#){data-modal-type="image" data-modal-url="figures/jupyter.png"}
 :::
 ::::
 
@@ -449,12 +451,12 @@ And much more...
 
 :::{.columns}
 ::: {.column width="50%"}
-![](figures/sqlite.jpg)
+[![](figures/sqlite.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/sqlite.jpg"}
 :::
 
 ::: {.column width="50%"}
 :::{style="margin-top: 60px;"}
-![](figures/pandas.png)
+[![](figures/pandas.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/pandas.png"}
 :::
 :::
 :::
@@ -466,12 +468,12 @@ And much more...
 
 ::::{.columns}
 ::: {.column width="50%"}
-![](figures/docker.png)
+[![](figures/docker.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/docker.png"}
 :::
 
 ::: {.column width="50%"}
 :::{style="margin-top: 80px;"}
-![](figures/dask.png)
+[![](figures/dask.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/dask.png"}
 :::
 :::
 ::::

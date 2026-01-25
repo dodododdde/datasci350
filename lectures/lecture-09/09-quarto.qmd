@@ -12,6 +12,8 @@ format:
 transition: slide
 transition-speed: default
 scrollable: true
+revealjs-plugins:
+  - multimodal
 engine: knitr
 editor:
   render-on-save: true
@@ -33,7 +35,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/quarto.png)
+[![](figures/quarto.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/quarto.png"}
 :::
 :::
 :::
@@ -55,7 +57,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center; font-size: 18px;"}
-![](figures/power-posing.jpg){width="50%"}
+[![](figures/power-posing.jpg){width="50%"}](#){data-modal-type="image" data-modal-url="figures/power-posing.jpg"}
 
 Amy Cuddy demonstrating her theory of "power posing". It could never be replicated. [Ted Talk](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are?language=en) with 75 million views!
 :::
@@ -66,7 +68,7 @@ Amy Cuddy demonstrating her theory of "power posing". It could never be replicat
 ## The reproducibility crisis in medicine
 
 :::{style="margin-top: 30px; text-align: center; font-size: 16px;"}
-![](figures/ioannidis.png){width="60%"}
+[![](figures/ioannidis.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/ioannidis.png"}
 
 <https://doi.org/10.1371/journal.pmed.0020124>
 :::
@@ -74,7 +76,7 @@ Amy Cuddy demonstrating her theory of "power posing". It could never be replicat
 ## The reproducibility crisis in psychology
 
 :::{style="margin-top: 30px; text-align: center; font-size: 16px;"}
-![](figures/science.png){width="60%"}
+[![](figures/science.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/science.png"}
 
 <https://www.science.org/doi/10.1126/science.aac4716>
 :::
@@ -85,7 +87,7 @@ Amy Cuddy demonstrating her theory of "power posing". It could never be replicat
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
 Think again...
 
-![](figures/sdata.png){width="40%"}
+[![](figures/sdata.png){width="40%"}](#){data-modal-type="image" data-modal-url="figures/sdata.png"}
 
 <https://www.nature.com/articles/s41597-022-01143-6>
 :::
@@ -108,7 +110,7 @@ Think again...
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/book.jpg){width="60%"}
+[![](figures/book.jpg){width="60%"}](#){data-modal-type="image" data-modal-url="figures/book.jpg"}
 :::
 :::
 :::
@@ -142,14 +144,14 @@ Think again...
 ### Company reports
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/report.png){width="40%"}
+[![](figures/report.png){width="40%"}](#){data-modal-type="image" data-modal-url="figures/report.png"}
 :::
 
 ## Some Quarto examples
 ### Interactive dashboards
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/dashboard.png){width="70%"}
+[![](figures/dashboard.png){width="70%"}](#){data-modal-type="image" data-modal-url="figures/dashboard.png"}
 
 <https://jjallaire.github.io/gapminder-dashboard/>
 :::
@@ -158,14 +160,14 @@ Think again...
 ### Books
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/book-2.png){width="80%"}  
+[![](figures/book-2.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/book-2.png"}  
 :::
 
 ## Some Quarto examples
 ### Websites
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/website.png){width="80%"}
+[![](figures/website.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/website.png"}
 :::
 
 # And everything with the same code (and version control) 🤩 {background-color="#2d4563"}
@@ -218,7 +220,7 @@ flowchart LR
 ## Downloading and installing Quarto
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-![](figures/quarto-download.png){width="80%"}
+[![](figures/quarto-download.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/quarto-download.png"}
 
 <https://quarto.org/docs/download/>
 :::
@@ -236,7 +238,7 @@ You can also download and install Quarto using:
 brew install --cask quarto
 ```
 
-![](figures/quarto-homebrew.png)
+[![](figures/quarto-homebrew.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/quarto-homebrew.png"}
 :::
 
 :::{.column width="50%"}
@@ -249,7 +251,7 @@ sudo dpkg -i quarto-1.8.24-linux-amd64.deb
 sudo apt-get install -f
 ```
 
-![](figures/quarto-wsl.png)
+[![](figures/quarto-wsl.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/quarto-wsl.png"}
 
 <https://simonstolarczyk.com/posts/misc/quarto_preview.html>
 :::
@@ -258,7 +260,7 @@ sudo apt-get install -f
 
 ## Writing with your favourite editor {.smaller}
 
-![](figures/editors.png){width="100%"}
+[![](figures/editors.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/editors.png"}
 
 ::: {.attribution}
 <https://quarto.org/>
@@ -300,7 +302,7 @@ quarto check
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/quarto-vscode.png)
+[![](figures/quarto-vscode.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/quarto-vscode.png"}
 
 [Quarto extension for VS Code](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
 :::
@@ -378,7 +380,7 @@ demo/Default
 1 directory, 2 files
 ```
 
-![](figures/quarto-project-default.png){width="80%"}
+[![](figures/quarto-project-default.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/quarto-project-default.png"}
 :::
 
 ## Quarto projects: `default`
@@ -425,7 +427,7 @@ demo/Website
 1 directory, 4 files
 ```
 
-![](figures/quarto-project-website.png){width="80%"}
+[![](figures/quarto-project-website.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/quarto-project-website.png"}
 :::
 
 ## Quarto projects: `blog`
@@ -457,7 +459,7 @@ demo/Blog
 4 directories, 10 files
 ```
 
-![](figures/quarto-project-blog.png){width="80%"}
+[![](figures/quarto-project-blog.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/quarto-project-blog.png"}
 :::
 
 ## Quarto projects: `book`
@@ -483,7 +485,7 @@ demo/Book
 1 directory, 7 files
 ```
 
-![](figures/quarto-project-book.png){width="80%"}
+[![](figures/quarto-project-book.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/quarto-project-book.png"}
 :::
 
 ## Quarto projects: `manuscript`
@@ -505,7 +507,7 @@ demo/Manuscript
 1 directory, 3 files
 ```
 
-![](figures/quarto-project-manuscript.png){width="80%"}
+[![](figures/quarto-project-manuscript.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/quarto-project-manuscript.png"}
 :::
 
 ## Quarto files
@@ -570,7 +572,7 @@ theme_minimal()
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/knitr-plot.png){width="90%"}
+[![](figures/knitr-plot.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/knitr-plot.png"}
 :::
 :::
 :::
@@ -619,7 +621,7 @@ g.set_ylabels('Body Mass');
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/jupyter-plot.png){width="90%"}
+[![](figures/jupyter-plot.png){width="90%"}](#){data-modal-type="image" data-modal-url="figures/jupyter-plot.png"}
 :::
 :::
 :::
@@ -649,7 +651,7 @@ quarto render file.qmd --to html
 ## Writing using the Visual Editor
 
 :::{style="margin-top: 30px; font-size: 24px;"}
-![](figures/editor222.png)
+[![](figures/editor222.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/editor222.png"}
 
 <https://quarto.org/docs/visual-editor/vscode/>
 :::
@@ -662,11 +664,11 @@ quarto render file.qmd --to html
 - We will cover Markdown in more detail in the next lecture
 
 ::: {layout-ncol="3"}
-![](figures/yaml.png)
+[![](figures/yaml.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/yaml.png"}
 
-![](figures/code-chunks.png)
+[![](figures/code-chunks.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/code-chunks.png"}
 
-![](figures/markdown-text.png)
+[![](figures/markdown-text.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/markdown-text.png"}
 :::
 :::
 
@@ -675,7 +677,7 @@ quarto render file.qmd --to html
 :::{style="margin-top: 30px; font-size: 21px;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/yaml.png)
+[![](figures/yaml.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/yaml.png"}
 :::
 
 :::{.column width="50%"}
@@ -701,7 +703,7 @@ editor: visual
 :::{style="margin-top: 30px; font-size: 21px;"}
 :::{.columns}
 :::{.column width="50%"}
-![](figures/code-chunks.png)
+[![](figures/code-chunks.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/code-chunks.png"}
 :::
 
 :::{.column width="50%"}
@@ -767,7 +769,7 @@ ggplot(data = penguins, aes(x = flipper_length_mm)) +
 :::{style="margin-top: 30px; font-size: 24px;"}
 Put two plots side by side:
 
-![](figures/side-plots.png)
+[![](figures/side-plots.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/side-plots.png"}
 :::
 
 # Phew! That was a lot of information! 🤯 {background-color="#2d4563"}

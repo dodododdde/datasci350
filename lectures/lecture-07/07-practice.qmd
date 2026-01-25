@@ -13,6 +13,8 @@ format:
 transition: slide
 transition-speed: default
 scrollable: true
+revealjs-plugins:
+  - multimodal
 engine: python3
 editor:
   render-on-save: true
@@ -39,7 +41,7 @@ editor:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/git-ref.png){width="100%"}
+[![](figures/git-ref.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/git-ref.png"}
 
 Source: [Lodato (2010)](https://marklodato.github.io/visual-git-guide/index-en.html)
 :::
@@ -65,8 +67,8 @@ Today we will cover:
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-![](figures/github-cli.jpeg){width="70%"}
-![](figures/cli.png){width="70%"}
+[![](figures/github-cli.jpeg){width="70%"}](#){data-modal-type="image" data-modal-url="figures/github-cli.jpeg"}
+[![](figures/cli.png){width="70%"}](#){data-modal-type="image" data-modal-url="figures/cli.png"}
 :::
 :::
 :::
@@ -94,7 +96,7 @@ echo "# This is a data cleaning script" >> ./01-data-cleaning.py
 git diff
 ``` 
 
-![](figures/diff-01.png){width="80%"}
+[![](figures/diff-01.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/diff-01.png"}
 :::
 
 - `diff --git a/file b/file` shows Git is comparing two versions of the same file (`a` = original, `b` = modified)
@@ -117,7 +119,7 @@ git diff
 - `git diff --name-only`: shows only filenames that changed
 
 :::{style="margin-top: -20px; text-align: center;"}
-![](figures/diff-one-line.png){width="100%"}
+[![](figures/diff-one-line.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/diff-one-line.png"}
 :::
 :::
 
@@ -129,7 +131,7 @@ git diff
 - `git diff --stat`: shows summary of changes (files modified, insertions, deletions)
 
 :::{style="margin-top: -20px; text-align: center;"}
-![](figures/diff-commits.png){width="100%"}
+[![](figures/diff-commits.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/diff-commits.png"}
 :::
 
 - `@@ -1,4 +1,4 @@` means that in the original file, lines 1 to 4 were present, and in the new file, lines 1 to 4 are also present, but with some changes
@@ -149,7 +151,7 @@ git diff
 - [Use with caution!]{.alert} Only amend commits that haven't been pushed yet
 
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/amend-message.png){width="60%"}
+[![](figures/amend-message.png){width="60%"}](#){data-modal-type="image" data-modal-url="figures/amend-message.png"}
 :::
 :::
 
@@ -199,7 +201,7 @@ git commit --amend -m "Updated commit message"
 - [Use with caution too!]{.alert} Hard reset will delete uncommitted changes
 
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/undo.png){width="100%"}
+[![](figures/undo.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/undo.png"}
 :::
 :::
 
@@ -238,7 +240,7 @@ git reset --hard HEAD~1
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/cherry-pick.png){width="100%"}
+[![](figures/cherry-pick.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/cherry-pick.png"}
 :::
 :::
 :::
@@ -302,7 +304,7 @@ git cherry-pick --skip      # Skip the current commit
 
 :::{.column width="60%"}
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/rebase.png){width="100%"}
+[![](figures/rebase.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/rebase.png"}
 :::
 :::
 :::
@@ -385,7 +387,7 @@ brew install gh
 
 :::{.column width="50%"}
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/gh-cli.png){width="100%"}
+[![](figures/gh-cli.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/gh-cli.png"}
 
 Website: <https://cli.github.com/>
 :::
@@ -412,7 +414,7 @@ gh auth login
 - Press `Enter` to open the link in your browser and copy the one-time code
 
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/auth.png){width="100%"}
+[![](figures/auth.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/auth.png"}
 :::
 
 - And you're all set to use GitHub CLI! 🎉
@@ -488,7 +490,7 @@ git init && git add . && git commit -m "first commit"
 ```
 
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/repo-create01.png){width="100%"}
+[![](figures/repo-create01.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/repo-create01.png"}
 :::
 :::
 
@@ -500,7 +502,7 @@ gh repo view --web
 ```
 
 :::{style="text-align: center; margin-top: -20px;"}
-![](figures/repo-create02.png){width="100%"}
+[![](figures/repo-create02.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/repo-create02.png"}
 :::
 :::
 :::
@@ -509,7 +511,7 @@ gh repo view --web
 ## Goodbye, GitHub Desktop! 👋 
 
 :::{style="margin-top: 30px; font-size: 23px; text-align: center;"}
-![](figures/gh-repo.png){width="100%"}
+[![](figures/gh-repo.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/gh-repo.png"}
 :::
 
 # Practice Time! ⏱️ {background-color="#2d4563"}
