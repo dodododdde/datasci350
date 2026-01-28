@@ -33,7 +33,7 @@ editor:
 - Basic command syntax: [command option(s) argument(s)]{.alert}
 - Options (flags) modify command behaviour and start with a dash (-)
 - `man` pages provide detailed documentation for commands
-- `cht.sh` and `tldr` offer simplified help for common commands
+- `cht.sh` and `tldr` offer simplified help for common commands (or just search online!)
 - Key commands: `ls` (list directory contents), `pwd` (print working directory), `cd` (change directory)
 - Special directory shortcuts: `~` (home), `.` (current), `..` (parent)
 :::
@@ -119,7 +119,7 @@ Testing the installation:
 ```{bash, eval=FALSE, echo=TRUE}
 mkdir testing
 ```
-- If you want to create the parent directories as well, use the `-p` flag:
+- If you want to create the parent directories as well, use the `-p` option:
 
 ```{bash, eval=FALSE, echo=TRUE}
 mkdir -p testing02/subdir
@@ -553,7 +553,7 @@ head -n 3 sonnets.txt ## First 3 rows
 tail -n 1 sonnets.txt ## Last row
 ```
 
-- By using the `-n +N` option, we can specify that we want to preview all lines starting from row N *and after*, as in:
+- By using the `-n +number` option, we can specify that we want to preview all lines starting from row N *and after*, as in:
 
 ```{bash, echo=TRUE}
 tail -n +3024 sonnets.txt ## Show everything from line 3024
@@ -716,7 +716,7 @@ sed '/Project Gutenberg/d' sonnets.txt
 :::{style="margin-top: 30px; font-size: 24px;"}
 :::{.columns}
 :::{.column width="50%"}
--   You have learned about pipes (`%>%`, `|>`) in R already
+-   You may have learned about pipes (`%>%`) in R already
 -   Understanding the concept of pipelines in the shell, as well as how input and output work for command line programs is critical to be able to use the shell effectively
 -   Think again of the Unix philosophy of "doing one thing, but doing it well" and combining multiple of these modules
 -   Also, often you'll want to dump output in a file as part of your workflow
@@ -732,8 +732,6 @@ sed '/Project Gutenberg/d' sonnets.txt
 ## Redirect: `>`
 
 :::{style="margin-top: 30px; font-size: 24px;"}
-:::{.columns}
-:::{.column width="50%"}
 -   You can send output from the shell to a file using the redirect operator `>`
 - For example, let's print a message to the shell using the `echo` command
 
@@ -751,9 +749,7 @@ find survive.txt ## Show that it now exists
 ```{bash, eval=TRUE, echo=FALSE}
 find survive.txt ## Show that it now exists
 ```
-:::
 
-:::{.column width="50%"}
 - If you want to *append* text to an existing file, then you should use `>>`
 -   Using `>` will try to overwrite the existing file contents
 
@@ -765,8 +761,6 @@ cat survive.txt
 ```{bash, eval=TRUE, echo=FALSE}
 cat survive.txt
 ```
-:::
-:::
 :::
 
 ## Pipes: `|`
@@ -815,7 +809,7 @@ Note: Using `;` isn't limited to *for loops*. Semicolons are a standard way to d
 
 ## Example 1: Create directories with a *for* loop
 
-:::{style="margin-top: 30px; font-size: 24px;"}
+:::{style="margin-top: 30px; font-size: 25px;"}
 :::{.columns}
 :::{.column width="50%"}
 - To help make things concrete, here's a simple *for* loop in action
@@ -842,7 +836,7 @@ rm -rf dir*
 
 ## Scripting with the shell
 
-:::{style="margin-top: 30px; font-size: 24px;"}
+:::{style="margin-top: 30px; font-size: 30px;"}
 :::{.columns}
 :::{.column width="50%"}
 -   The shell is a powerful scripting language in its own right
