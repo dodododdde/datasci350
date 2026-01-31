@@ -104,6 +104,14 @@ editor:
 :::
 :::
 
+## Upcoming event
+
+:::{style="text-align: center; margin-top: 30px;"}
+[![](figures/google.png){width="35%"}](#){data-modal-type="image" data-modal-url="figures/google.png"}
+
+[RSVP here](https://forms.office.com/Pages/ResponsePage.aspx?id=nPsE4KSwT0K80DImBtXfOGf5iP0NIbROsdVBvVq1metUNTVaSUJYMkI4QkowR1NBWUtEV1k4NFMzVSQlQCN0PWcu)
+:::
+
 # Project management 📂 {background-color="#2d4563"}
 
 ## Taming chaos
