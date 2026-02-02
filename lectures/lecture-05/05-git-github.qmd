@@ -440,13 +440,13 @@ Check out [these setup instructions](https://swcarpentry.github.io/git-novice/02
 
 ## Repositories
 
-:::{style="margin-top: 30px; font-size: 24px;"}
+:::{style="margin-top: 30px; font-size: 28px;"}
 :::{.columns}
 :::{.column size="50%"}
-- Repositories, usually called [repos](https://en.wikipedia.org/wiki/Repository_(version_control)), store the full history and source control of a project
-- They can either be hosted locally, or on a shared server, such as GitHub
+- [Repositories]{.alert}, usually called [repos](https://en.wikipedia.org/wiki/Repository_(version_control)), store the [full history and source control of a project]{.alert}
+- They can either be hosted locally, or on a shared server, such as [GitHub](https://github.com/)
 - Most repositories are stored on GitHub, while core contributors make copies of the repository on their machine and update the repository using the `push/pull` system
-- Any repository stored somewhere other than locally is called a ‘remote repository’
+- Any repository stored somewhere other than locally is called a [remote repository]{.alert}
 :::
 
 :::{.column size="50%"}
@@ -457,15 +457,15 @@ Check out [these setup instructions](https://swcarpentry.github.io/git-novice/02
 :::
 :::
 
-## {background-image="figures/qtm350-repo.png"}
+## {background-image="figures/datasci350-repo.png"}
 
 ## Repos vs directories
 
-:::{style="margin-top: 30px; font-size: 24px;"}
+:::{style="margin-top: 30px; font-size: 28px;"}
 :::{.columns}
 :::{.column size="50%"}
-- Repositories are [timelines of the entire project]{.alert}, including all changes made previously
-- Directories, or ‘working directories’ are projects at their [current state in time]{.alert}
+- [Repositories]{.alert} are [timelines of the entire project]{.alert}, including all changes made previously
+- [Directories]{.alert}, or ‘working directories’ are projects at their [current state in time]{.alert}
 - Any local directory interacting with a repository is technically a repository itself, however, it is better to call these directories ‘local repositories’, as they are instances of a remote repository
 :::
 
@@ -529,10 +529,10 @@ Check out [these setup instructions](https://swcarpentry.github.io/git-novice/02
 
 ## Let's create a repository together
 
-:::{style="margin-top: 30px; font-size: 24px;"}
+:::{style="margin-top: 30px; font-size: 30px;"}
 - Let's create a new repository on GitHub from scratch!
-- We will create it in our local machine and push it to GitHub
-- Next class, I will show you how to clone it and make changes
+- We will create one in our local machine and make some changes
+- Next class, I will show you how to clone it and modify it
 - We will also learn how to create branches, merge them, and resolve conflicts
 
 :::{.fragment .fade-in}
@@ -544,7 +544,7 @@ Check out [these setup instructions](https://swcarpentry.github.io/git-novice/02
 
 ## Creating a new repository
 
-:::{style="margin-top: 30px; font-size: 22px;"}
+:::{style="margin-top: 30px; font-size: 25px;"}
 :::{.columns}
 :::{.column size="50%"}
 1. I will create a new folder/directory in my computer: `my_project` 
@@ -557,7 +557,7 @@ mkdir my-project
 cd my-project
 git add .
 ```
-5. Error!
+5. [Error!]{.alert} 😟
 
 :::{.fragment .fade-in}
 6. We need to initialise the repository. [Do not do that in your home directory!]{.alert}
@@ -709,7 +709,7 @@ git add .
 git commit -m "adding files" 
 echo "Hello you" >> 05-comments.py # edit file
 git add . 
-git commit -m "editing 05-comments.py". 
+git commit -m "editing 05-comments.py" 
 rm -f 05-comments.py 
 git commit -am "deleting 05-comments.py" 
 git log 
@@ -726,7 +726,7 @@ git log
 
 ## Hands on! Git checkout
 
-:::{style="margin-top: 30px; font-size: 24px;"}
+:::{style="margin-top: 30px; font-size: 26px;"}
 :::{.columns}
 :::{.column size="50%"}
 2. We use `checkout` to go back in time to a given commit. Let's go back to the "initial commit":
