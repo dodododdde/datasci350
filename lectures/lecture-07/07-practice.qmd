@@ -60,6 +60,7 @@ Today we will cover:
 - Amending commits with `git commit --amend`
 - Cherry-picking commits with, well, `git cherry-pick` 😅
 - Understanding `git rebase` and its uses
+- Saving work temporarily with `git stash`
 - Installing and setting up GitHub CLI
 - GitHub CLI repository management
 - [Mock-up quiz!]{.alert}
@@ -344,6 +345,152 @@ git rebase main
 - `squash`: combine with previous commit
 - `drop`: remove the commit entirely
 - `reorder`: change commit order
+:::
+:::
+:::
+
+# Saving work with git stash 📦 {background-color="#2d4563"}
+
+## What is `git stash`?
+
+:::{style="margin-top: 30px; font-size: 21px;"}
+:::{.columns}
+:::{.column width="50%"}
+- `git stash` temporarily [saves your uncommitted changes]{.alert} without committing them
+- Think of it as a "clipboard" for your work-in-progress
+- Useful when you need to switch branches but aren't ready to commit
+- Keeps your working directory clean without losing work
+- Stashes are stored in a stack (last in, first out)
+
+**When to use `git stash`:**
+
+- You need to switch branches urgently (e.g., hotfix)
+- You want to pull changes but have local modifications
+- You're experimenting and want to save your current state
+- You accidentally started work on the wrong branch
+:::
+
+:::{.column width="50%"}
+:::{style="text-align: center; margin-top: 20px;"}
+```bash
+# You're working on a feature
+echo "new feature code" >> feature.py
+
+# Suddenly need to switch branches
+git stash
+
+# Your working directory is now clean!
+git checkout main
+# Do your hotfix work...
+
+# Return to your feature branch
+git checkout feature-branch
+git stash pop  # Restore your changes
+```
+:::
+:::
+:::
+:::
+
+## Basic `git stash` commands
+
+:::{style="margin-top: 30px; font-size: 20px;"}
+:::{.columns}
+:::{.column width="50%"}
+**Saving and restoring stashes:**
+```bash
+# Stash current changes (tracked files only)
+git stash
+
+# Stash with a descriptive message
+git stash save "WIP: adding user authentication"
+
+# Stash including untracked files
+git stash -u
+
+# Stash including untracked and ignored files
+git stash -a
+
+# Restore most recent stash and remove from stack
+git stash pop
+
+# Restore most recent stash but keep in stack
+git stash apply
+```
+:::
+
+:::{.column width="50%"}
+**Managing multiple stashes:**
+```bash
+# List all stashes
+git stash list
+
+# Apply a specific stash
+git stash apply stash@{2}
+
+# Drop a specific stash
+git stash drop stash@{1}
+
+# Clear all stashes (use with caution!)
+git stash clear
+
+# Show changes in most recent stash
+git stash show
+
+# Show changes in stash with diff
+git stash show -p stash@{0}
+```
+:::
+:::
+:::
+
+## Moving changes to another branch with `git stash` 🔀
+
+:::{style="margin-top: 30px; font-size: 20px;"}
+:::{.columns}
+:::{.column width="50%"}
+**A very common scenario:**
+
+You've been coding away, only to realise you're on the [wrong branch]{.alert}! 😱
+
+`git stash` makes it easy to move your uncommitted changes to the correct branch:
+
+```bash
+# You're on main but should be on feature-x
+# First, stash your changes
+git stash save "Move to feature-x branch"
+
+# Switch to the correct branch
+git checkout feature-x
+
+# Apply your stashed changes
+git stash pop
+```
+
+This technique works for both tracked and untracked files (use `git stash -u` for untracked).
+:::
+
+:::{.column width="50%"}
+**Creating a new branch from stash:**
+
+If the branch doesn't exist yet, you can create it directly from the stash:
+
+```bash
+# Stash your current work
+git stash
+
+# Create new branch with stashed changes
+git stash branch new-feature-branch
+```
+
+This command:
+
+- Creates a new branch from where you stashed
+- Checks out the new branch
+- Applies the stash
+- Drops the stash if applied successfully
+
+[Pro tip:]{.alert} This is the safest way to recover stashed work if you're unsure about conflicts!
 :::
 :::
 :::
