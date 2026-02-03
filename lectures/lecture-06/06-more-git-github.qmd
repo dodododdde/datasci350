@@ -53,7 +53,7 @@ editor:
 
 ## Lecture overview
 
-:::{style="margin-top: 30px; font-size: 21px;"}
+:::{style="margin-top: 30px; font-size: 25px;"}
 :::{.columns}
 :::{.column size="50%"}
 Today we will cover
@@ -70,9 +70,41 @@ Today we will cover
 :::{.column size="50%"}
 :::{style="text-align: center;"}
 [![](figures/pages.jpg){width="55%"}](#){data-modal-type="image" data-modal-url="figures/pages.jpg"}
-[![](figures/copilot.jpeg){width="55%"}](#){data-modal-type="image" data-modal-url="figures/copilot.jpeg"}
 [![](figures/cli-logo.png){width="55%"}](#){data-modal-type="image" data-modal-url="figures/cli-logo.png"}
 :::
+:::
+:::
+:::
+
+## How to rename your branch from `master` to `main`
+
+:::{style="margin-top: 30px; font-size: 23px;"}
+:::{.columns}
+:::{.column size="50%"}
+- Many of you may have a default branch called `master` instead of `main`
+- [This is completely fine!]{.alert} Both names work exactly the same way 👍
+- GitHub changed the default branch name from `master` to `main` to use more inclusive language
+- You can read more about the change [here](https://github.com/github/renaming)
+- [You don't have to rename your branch]{.alert}, but if you want to, it's very easy! 😊
+:::
+
+:::{.column size="50%"}
+- To rename your current branch from `master` to `main`:
+
+```bash
+# Rename the branch locally
+git branch -m master main
+
+# Push the renamed branch to GitHub
+git push -u origin main
+
+# Delete the old master branch on GitHub
+git push origin --delete master
+```
+
+- The `-m` flag stands for "move" (rename)
+- After this, your default branch will be called `main`
+- Remember to update any references to `master` in your workflows! 🔄
 :::
 :::
 :::

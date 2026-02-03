@@ -547,9 +547,9 @@ Check out [these setup instructions](https://swcarpentry.github.io/git-novice/02
 :::{style="margin-top: 30px; font-size: 25px;"}
 :::{.columns}
 :::{.column size="50%"}
-1. I will create a new folder/directory in my computer: `my_project` 
-2. Open the `bash/zsh` Terminal and go to the `my_project` directory
-3. I will copy the `my_project` directory path into a text document 
+1. I will create a new folder/directory in my computer: `my-project` 
+2. Open the `bash/zsh` Terminal and go to the `my-project` directory
+3. I will copy the `my-project` directory path into a text document 
 4. I will try to add this folder to the `staging area`
 
 ```{verbatim}
@@ -587,11 +587,11 @@ git init
 git status
 ```
 
-2. Let's add a `01-cleaning-data.py` file to the `staging area`. Then, check its status
+2. Let's add a `01-data-cleaning.py` file to the `staging area`. Then, check its status
 
 ```{verbatim}
-touch 01-cleaning-data.py
-git add 01-cleaning-data.py
+touch 01-data-cleaning.py
+git add 01-data-cleaning.py
 git status
 ```
 :::
@@ -775,7 +775,7 @@ git log
 - [Phew!]{.alert} That was a lot of work! 😅
 - Next class we will see how we can create branches and merge them
 - We will also learn how to resolve conflicts and push our changes to GitHub
-- For now, let's keep our `my_project` folder and we will use it in our next class
+- For now, let's keep our `my-project` folder and we will use it in our next class
 - You can try to create a repository on GitHub and push your changes there! 🤓
 - [Questions?]{.alert}
 :::
