@@ -36,7 +36,7 @@ editor:
 - The difference between `clone` and `fork` repositories
 - Resolving conflicts when multiple people change the same code
 - Going back to specific commits with `git checkout` and `git reset`
-- Workflow for merging branches back to master
+- Workflow for merging branches back to `master/main`
 :::
 
 :::{.column width="50%"}
@@ -85,18 +85,17 @@ Today we will cover:
 - `git diff` shows you [what has changed]{.alert} between commits, branches, or your working directory
 - It is one of the most useful Git commands for understanding your code changes
 - Helps you review changes before committing
-- The output shows line-by-line differences with `+` for additions and `-` for deletions
 - Let's see how it works with our former `my-project` repository
 - First, let's make some changes in the `01-data-cleaning.py` file
-:::
 
-:::{.column width="50%"}
-:::{style="text-align: center;"}
 ```bash
 echo "# This is a data cleaning script" >> ./01-data-cleaning.py
 git diff
 ``` 
+:::
 
+:::{.column width="50%"}
+:::{style="text-align: center;"}
 [![](figures/diff-01.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/diff-01.png"}
 :::
 
@@ -663,9 +662,9 @@ gh repo view --web
 
 # Practice Time! ⏱️ {background-color="#2d4563"}
 
-## Git and CLI Practice Quiz
+## Git practice quiz
 
-:::{style="margin-top: 30px; font-size: 19px;"}
+:::{style="margin-top: 30px; font-size: 21px;"}
 Please complete the following tasks:
 
 1. Create a new directory called `git-practice` and initialise it as a Git repository
@@ -674,15 +673,10 @@ Please complete the following tasks:
 4. Stage and commit all changes with the message "Initial commit with README and main.py"
 5. Create and switch to a new branch called `hotfix`
 6. In the `src` directory, create three files using brace expansion: `utils.js`, `utils.css`, `utils.html`
-7. Create a directory called `temp` and inside it create a file named `debug.log`
-8. Create a `.gitignore` file and add `temp/` to it
-9. Stage and commit all changes with the message "Add hotfix files and gitignore"
-10. Rename `src/main.py` to `src/app.py`
-11. Create a directory called `docs` and copy `README.md` into it as `guide.md`
-12. Delete the `temp` directory and its contents
-13. Stage and commit all changes with the message "Complete hotfix development"
-14. Switch back to the `main` branch and merge the `hotfix` branch
-15. View the commit history in a compact format
+7. Create a `.gitignore` file and add `temp/` to it, then stage and commit with the message "Add hotfix files and gitignore"
+8. Rename `src/main.py` to `src/app.py`
+9. Stage and commit all changes with the message "Complete hotfix development"
+10. Switch back to the `main` branch and merge the `hotfix` branch, then view the commit history in a compact format
 
 After completing these tasks, verify your work by checking the commit history and file structure.
 :::
@@ -693,7 +687,7 @@ After completing these tasks, verify your work by checking the commit history an
 
 ## Solutions to practice quiz
 
-:::{style="margin-top: 30px; font-size: 18px;"}
+:::{style="margin-top: 30px; font-size: 20px;"}
 Here are the answers to the practice quiz. Try to complete the quiz first before checking these answers!
 
 1. `mkdir git-practice && cd git-practice && git init`
@@ -702,15 +696,10 @@ Here are the answers to the practice quiz. Try to complete the quiz first before
 4. `git add . && git commit -m "Initial commit with README and main.py"`
 5. `git checkout -b hotfix`
 6. `touch src/utils.{js,css,html}`
-7. `mkdir temp && touch temp/debug.log`
-8. `echo "temp/" > .gitignore`
-9. `git add . && git commit -m "Add hotfix files and gitignore"`
-10. `mv src/main.py src/app.py`
-11. `mkdir docs && cp README.md docs/guide.md`
-12. `rm -rf temp`
-13. `git add . && git commit -m "Complete hotfix development"`
-14. `git checkout main && git merge hotfix`
-15. `git log --oneline`
+7. `echo "temp/" > .gitignore && git add . && git commit -m "Add hotfix files and gitignore"`
+8. `mv src/main.py src/app.py`
+9. `git add . && git commit -m "Complete hotfix development"`
+10. `git checkout main && git merge hotfix && git log --oneline`
 
 **Additional verification commands:**
 
