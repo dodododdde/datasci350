@@ -118,7 +118,9 @@ Think again...
 
 ## (R)Markdown, Jupyter, and Quarto
 
-:::{style="margin-top: 30px; font-size: 24px;"}
+:::{style="margin-top: 30px; font-size: 23px;"}
+:::{.columns}
+:::{.column width="50%"}
 - [LaTeX](https://www.latex-project.org/) is a popular tool for writing scientific documents and is one of the first tools to support literate programming
 - However, LaTeX is not very user-friendly and has a steep learning curve (I know, I've been there 😅)
 - [Markdown](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language with plain text formatting syntax
@@ -127,10 +129,21 @@ Think again...
 - Both are good tools, but they have some limitations
 :::
 
+:::{.column width="50%"}
+:::{style="text-align: center; margin-top: 20px;"}
+[![](figures/latex.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/latex.png"}
+
+Source: <https://github.com/danilofreire/quarto-templates/blob/main/article/article-template.latex>
+:::
+:::
+:::
+:::
+
 ## (R)Markdown, Jupyter, and Quarto
 
-:::{style="margin-top: 30px; font-size: 24px;"}
-
+:::{style="margin-top: 30px; font-size: 22px;"}
+:::{.columns}
+:::{.column width="50%"}
 - R Markdown, as the name suggests, is more focused on R
 - Jupyter works with many languages, but it's not very good for writing reports or papers
 - [Enter Quarto](https://quarto.org/), a new tool that combines the best of both worlds
@@ -140,11 +153,21 @@ Think again...
 - Programmers are lazy: [learn it once, use it everywhere!]{.alert}
 :::
 
+:::{.column width="50%"}
+:::{style="text-align: center; margin-top: 20px;"}
+[![](figures/quarto.png){width="80%"}](#){data-modal-type="image" data-modal-url="figures/quarto.png"}
+
+Source: <https://quarto.org/>
+:::
+:::
+:::
+:::
+
 ## Some Quarto examples
 ### Company reports
 
 :::{style="margin-top: 30px; font-size: 22px; text-align: center;"}
-[![](figures/report.png){width="40%"}](#){data-modal-type="image" data-modal-url="figures/report.png"}
+[![](figures/report.png){width="35%"}](#){data-modal-type="image" data-modal-url="figures/report.png"}
 :::
 
 ## Some Quarto examples
