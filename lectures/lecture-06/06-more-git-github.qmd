@@ -53,7 +53,7 @@ editor:
 
 ## Lecture overview
 
-:::{style="margin-top: 30px; font-size: 21px;"}
+:::{style="margin-top: 30px; font-size: 25px;"}
 :::{.columns}
 :::{.column size="50%"}
 Today we will cover
@@ -70,9 +70,41 @@ Today we will cover
 :::{.column size="50%"}
 :::{style="text-align: center;"}
 [![](figures/pages.jpg){width="55%"}](#){data-modal-type="image" data-modal-url="figures/pages.jpg"}
-[![](figures/copilot.jpeg){width="55%"}](#){data-modal-type="image" data-modal-url="figures/copilot.jpeg"}
 [![](figures/cli-logo.png){width="55%"}](#){data-modal-type="image" data-modal-url="figures/cli-logo.png"}
 :::
+:::
+:::
+:::
+
+## How to rename your branch from `master` to `main`
+
+:::{style="margin-top: 30px; font-size: 23px;"}
+:::{.columns}
+:::{.column size="50%"}
+- Many of you may have a default branch called `master` instead of `main`
+- [This is completely fine!]{.alert} Both names work exactly the same way 👍
+- GitHub changed the default branch name from `master` to `main` to use more inclusive language
+- You can read more about the change [here](https://github.com/github/renaming)
+- [You don't have to rename your branch]{.alert}, but if you want to, it's very easy! 😊
+:::
+
+:::{.column size="50%"}
+- To rename your current branch from `master` to `main`:
+
+```bash
+# Rename the branch locally
+git branch -m master main
+
+# Push the renamed branch to GitHub
+git push -u origin main
+
+# Delete the old master branch on GitHub
+git push origin --delete master
+```
+
+- The `-m` flag stands for "move" (rename)
+- After this, your default branch will be called `main`
+- Remember to update any references to `master` in your workflows! 🔄
 :::
 :::
 :::
@@ -192,6 +224,7 @@ Today we will cover
   - You can use wildcards, such as `*.csv`, to ignore all CSV files
   - You can also ignore entire directories, such as `data/`
   - You can also ignore files by name, such as `secrets.txt`
+- You should [always use the terminal to create your files]{.alert}, this is just an example to show how to use `git pull` 😉
 :::
 
 :::{.column size="50%"}
@@ -203,7 +236,7 @@ Today we will cover
 :::
 :::
 
-# Pulling changes 
+## Pulling changes 
 
 :::{style="margin-top: 30px; font-size: 21px;"}
 :::{.columns}
@@ -685,15 +718,13 @@ Pull requests
 
 ## GitHub Copilot 🤖
 
-:::{style="margin-top: 30px; font-size: 21px;"}
+:::{style="margin-top: 30px; font-size: 27px;"}
 :::{.colunms}
 :::{.column size="50%"}
 - Okay, I have the feeling that you are already tired of me talking about GitHub 😂
-- But I've left the coolest feature for last: [GitHub Copilot](https://copilot.github.com)
-- This is [really cool]{.alert}! GitHub Copilot is an AI pair programmer that helps you write code
-- Think about [ChatGPT](https://chat.openai.com) but for code
-- It is based on OpenAI's Codex and is available as a [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-- You can use it to write entire functions, classes, or even entire programs
+- But I'd just like to mention [GitHub Copilot](https://copilot.github.com)
+- You may already know it, but it's been [getting many new features]{.alert}
+- Now it comes with several good models (Claude, Gemini, etc), and you can use it for free with a [student discount](https://education.github.com/students)
 - Like ChatGPT, it is not perfect, but it is really good and can save you a lot of time
 :::
 
@@ -703,24 +734,6 @@ Pull requests
 :::
 :::
 :::
-:::
-
-## GitHub Copilot
-
-:::{style="margin-top: 30px; font-size: 21px;"}
-[![](figures/readme-gif.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/readme-gif.gif"}
-:::
-
-## GitHub Copilot
-
-:::{style="margin-top: 30px; font-size: 21px; text-align: center;"}
-[![](figures/copilot4.gif){width="100%"}](#){data-modal-type="image" data-modal-url="figures/copilot4.gif"}
-:::
-
-## GitHub Copilot
-
-:::{style="margin-top: 30px; font-size: 21px; text-align: center;"}
-[![](figures/copilot5.webp){width="100%"}](#){data-modal-type="image" data-modal-url="figures/copilot5.webp"}
 :::
 
 # Phew! That's all for today! 🎉 {background-color="#2d4563"}
