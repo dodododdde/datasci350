@@ -32,7 +32,7 @@ editor:
 - We also covered how to add academic references with BibTeX and create beautiful PDFs with TinyTeX
 - **Today**: How do we communicate effectively with AI models?
 - The same model can give [wildly different results]{.alert} depending on how you phrase your request
-- We'll learn the science and art of [prompt engineering]{.alert}
+- We'll learn a bit about (the art of?) [prompt engineering]{.alert}
 :::
 
 :::{.column width=50%}
@@ -79,11 +79,7 @@ Source: [r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor/comments/1d
 
 - The ReAct framework: Reasoning + Acting
 - Prompt injection and security concerns
-- Challenges: hallucination, bias, IP issues
-
-**Part 6: Summary and Toolkit**
-
-- Your prompt engineering reference guide
+- Challenges: hallucination and bias
 :::
 :::
 :::
@@ -91,7 +87,7 @@ Source: [r/ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor/comments/1d
 ## Tweet of the day
 
 :::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-[![](figures/tweet-of-the-day.jpg){width="70%"}](#){data-modal-type="image" data-modal-url="figures/tweet-of-the-day.jpg"}
+[![](figures/tweet-of-the-day.jpg){width="50%"}](#){data-modal-type="image" data-modal-url="figures/tweet-of-the-day.jpg"}
 :::
 
 # What Are LLMs? 🤖 {background-color="#2d4563"}
@@ -223,12 +219,11 @@ Source: [Hugging Face](https://huggingface.co/docs/transformers/tokenizer_summar
 :::
 
 ## Tokenisation in action
-### Try it yourself!
 
 :::{style="margin-top: 30px; font-size: 21px;"}
 :::{.columns}
 :::{.column width=55%}
-**OpenAI's Tokeniser** (try it!): [platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)
+**OpenAI's Tokeniser** (let's try it!): [platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)
 
 The number of tokens can change from one version to another!
 
@@ -518,7 +513,7 @@ Source: [Medium](https://medium.com/@nigelgebodh/why-does-my-llm-have-a-temperat
 :::
 
 :::{style="background: rgba(45, 69, 99, 0.1); padding: 15px; border-radius: 10px; font-size: 18px; margin-top: 15px;"}
-**Pro tip**: When debugging prompts, set temperature to 0 first. This removes randomness as a variable, making it easier to isolate prompt issues.
+When debugging prompts, set temperature to 0 first. This removes randomness as a variable, making it easier to isolate prompt issues.
 :::
 :::
 :::
@@ -544,8 +539,6 @@ Source: [Medium](https://medium.com/@nigelgebodh/why-does-my-llm-have-a-temperat
 
 :::{.fragment}
 **Your task**: Rewrite this using PTCF for a specific use case.
-
-⏱️ 2-3 minutes, then share with your neighbour!
 :::
 :::
 
@@ -660,46 +653,6 @@ messages = [
 Source: [Anthropic Documentation](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
 
 More here: <https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools>
-:::
-:::
-:::
-:::
-
-## Activity: Persona showdown 🎭
-
-:::{style="margin-top: 30px; font-size: 18px;"}
-:::{.columns}
-:::{.column width=50%}
-**The same question, three personas:**
-
-> "Should I invest in cryptocurrency?"
-
-**Test these system prompts:**
-
-1. **No persona** (default behaviour)
-
-2. **Conservative analyst**:
-
-> "You are a risk-averse financial analyst with 30 years experience who prioritises capital preservation."
-
-3. **Tech enthusiast**:
-
-> "You are a blockchain researcher and early Bitcoin adopter who believes in decentralised finance."
-
-⏱️ 3 minutes to test all three!
-:::
-
-:::{.column width=50%}
-**What to observe:**
-
-- How does the recommendation differ?
-- Which persona [acknowledges its own bias]{.alert}?
-- Which response is most useful?
-
-:::{style="background: rgba(45, 69, 99, 0.1); padding: 15px; border-radius: 10px; font-size: 18px; margin-top: 15px;"}
-**Meta-lesson**: Personas change [what information is emphasised]{.alert}, what risks are mentioned, and what assumptions are made.
-
-[Always ask: what persona is this response from?]{.alert}
 :::
 :::
 :::
@@ -968,9 +921,9 @@ You don't need examples. Just adding **"Let's think step by step"** triggers rea
 
 **Without CoT:**
 
-> Q: If a store sells 3 apples for £2, how much do 12 apples cost?
+> Q: If a store sells 3 apples for $2, how much do 12 apples cost?
 >
-> A: £6
+> A: $6
 
 (Wrong. The model rushed to an answer.)
 :::
@@ -978,9 +931,9 @@ You don't need examples. Just adding **"Let's think step by step"** triggers rea
 :::{.column width=50%}
 **With zero-shot CoT:**
 
-> Q: If a store sells 3 apples for £2, how much do 12 apples cost? Let's think step by step.
+> Q: If a store sells 3 apples for $2, how much do 12 apples cost? Let's think step by step.
 >
-> A: First, I need to find the price per apple. 3 apples cost £2, so 1 apple costs £2/3 = £0.67. For 12 apples: 12 × £0.67 = £8. The answer is £8.
+> A: First, I need to find the price per apple. 3 apples cost $2, so 1 apple costs $2/3 = £0.67. For 12 apples: 12 × $0.67 = $8. The answer is $8.
 
 **The phrase activates a "reasoning mode"** learned from training data where step-by-step explanations precede correct answers.
 
@@ -992,48 +945,6 @@ You don't need examples. Just adding **"Let's think step by step"** triggers rea
 
 [Any phrase that signals "don't jump to conclusions" can work]{.alert}.
 :::
-:::
-:::
-:::
-
-## Activity: The classic reasoning trap 🪤
-
-:::{style="margin-top: 30px; font-size: 23px;"}
-:::{.columns}
-:::{.column width=50%}
-**Try this problem both ways:**
-
-> A bat and ball cost $1.10 together. The bat costs $1 more than the ball. How much does the ball cost?
-
-**Test 1**: Ask ChatGPT/Claude/Gemini without CoT.
-
-**Test 2**: Add "Think through this step by step before answering."
-
-:::{.fragment}
-**The common wrong answer**: $0.10
-
-**Why it's wrong**: If ball = $0.10, then bat = $1.10, and total = $1.20 ≠ $1.10
-
-**Correct answer**: Ball = $0.05, Bat = $1.05, Total = $1.10 ✓
-:::
-:::
-
-:::{.column width=50%}
-:::{.fragment}
-**What to observe:**
-
-- Does the model get it right without CoT?
-- With CoT, can you follow the reasoning?
-- Does it ever [show correct steps but get the wrong final answer]{.alert}?
-
-:::{style="background: rgba(45, 69, 99, 0.1); padding: 15px; border-radius: 10px; font-size: 18px; margin-top: 15px;"}
-**Famous result**: This problem (from Kahneman's research on human cognition) tricks most humans too. Over 50% of Princeton students got it wrong!
-
-CoT prompting helps LLMs avoid the same intuitive error that catches humans.
-:::
-:::
-
-⏱️ 2-3 minutes to test!
 :::
 :::
 :::
@@ -1184,11 +1095,13 @@ Email content:
 - This makes it vital to [check the output]{.alert} of these models and not take it at face value
 - For example, some time ago I asked Microsoft Copilot to solve a simple quadratic equation, and [it very confidently gave me a very wrong answer]{.alert} 😅
 - It provided the answers of $\frac{1}{2}$ and $\frac{-5}{4}$ when the correct answers were 0.804 and -1.55
+- The same model also confidently gave me the wrong answer to a simple geography question
 :::
 
 :::{.column width="50%"}
 :::{style="text-align: center;"}
-[![](figures/quadratic.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/quadratic.png"}
+[![](figures/quadratic.png){width="65%"}](#){data-modal-type="image" data-modal-url="figures/quadratic.png"}
+[![](figures/europe.png){width="65%"}](#){data-modal-type="image" data-modal-url="figures/europe.png"}
 :::
 :::
 :::
@@ -1218,34 +1131,6 @@ Email content:
 [![](figures/biases.jpg){width="100%"}](#){data-modal-type="image" data-modal-url="figures/biases.jpg"}
 
 More here: <https://www.nature.com/articles/s41598-023-42384-8>
-:::
-:::
-:::
-:::
-
-## AI challenges: Security and IP
-
-:::{style="margin-top: 30px; font-size: 22px;"}
-:::{.columns}
-:::{.column width="50%"}
-**Security vulnerabilities:**
-
-- AI models can be vulnerable to [adversarial attacks](https://en.wikipedia.org/wiki/Adversarial_machine_learning) and [injection attacks](https://en.wikipedia.org/wiki/Code_injection)
-- As programmers use more AI-generated code, many blindly trust the output and send it into production
-- In [Security Weaknesses of Copilot Generated Code in GitHub](https://arxiv.org/abs/2310.02059), Fu et al. found that [35.8% of AI-generated code snippets had security vulnerabilities]{.alert}
-:::
-
-:::{.column width="50%"}
-**Intellectual property concerns:**
-
-- AI models can generate code that is [identical to existing code]{.alert}
-- This raises questions about [intellectual property](https://apnews.com/article/ai-media-lawsuits-center-for-investigative-reporting-chatgpt-mother-jones-c48452889750479410b65a119537746c) and [ownership]{.alert}
-- This is an ongoing debate in the AI community
-
-:::{style="text-align: center;"}
-[![](figures/stupid.png){width="100%"}](#){data-modal-type="image" data-modal-url="figures/stupid.png"}
-
-More here: <https://matthewbutterick.com/chron/this-copilot-is-stupid-and-wants-to-kill-me.html>
 :::
 :::
 :::
@@ -1283,7 +1168,7 @@ Even [perfect prompts will sometimes fail unexpectedly]{.alert}.
 
 **The practical response:**
 
-Build a mental [reliability map]{.alert}—learn where your model works well and where it stumbles. This knowledge comes from experience, not documentation.
+Build a mental [reliability map]{.alert} and learn where your model works well and where it stumbles. This knowledge comes from experience, not documentation.
 
 :::{style="background: rgba(230, 57, 70, 0.1); padding: 15px; border-radius: 10px; font-size: 17px; margin-top: 15px;"}
 [Always verify critical outputs]{.alert}. Treat LLM outputs as drafts to review, not final answers.
@@ -1312,74 +1197,6 @@ Build a mental [reliability map]{.alert}—learn where your model works well and
 
 - ⚠️ **Jagged intelligence**: LLMs fail unpredictably. Always verify critical outputs.
 
-:::
-
-## Your prompt engineering toolkit
-
-:::{style="margin-top: 30px; font-size: 22px;"}
-:::{.columns}
-:::{.column width=50%}
-**Technique reference:**
-
-| Technique | Use When... |
-|-----------|-------------|
-| [PTCF]{.alert} | Any prompt (structure) |
-| [Few-shot]{.alert} | Subtle patterns, edge cases |
-| [Chain-of-Thought]{.alert} | Multi-step reasoning |
-| [Self-consistency]{.alert} | High-stakes decisions |
-| [Meta-prompting]{.alert} | Improving failing prompts |
-| [System prompts]{.alert} | Building applications |
-:::
-
-:::{.column width=50%}
-**Key principles:**
-
-1. Be [explicit]{.alert} about edge cases
-2. Show [representative examples]{.alert}, not easy ones
-3. Specify [exact output format]{.alert}
-4. Use CoT for complex reasoning, skip it for simple tasks
-5. [Verify critical outputs]{.alert}—models fail unexpectedly
-6. Iterate based on [actual failures]{.alert}
-
-<!-- Suggested image: A toolkit or reference card image -->
-:::
-:::
-:::
-
-## Further reading
-
-:::{style="margin-top: 30px; font-size: 20px;"}
-:::{.columns}
-:::{.column width=50%}
-**Research papers:**
-
-- Wei, J., et al. (2022). [Chain-of-Thought prompting elicits reasoning in large language models](https://arxiv.org/abs/2201.11903). The original CoT paper.
-- Kojima, T., et al. (2022). [Large language models are zero-shot reasoners](https://arxiv.org/abs/2205.11916). "Let's think step by step."
-- Yao, S., et al. (2022). [ReAct: Synergizing reasoning and acting](https://arxiv.org/abs/2210.03629). The agent framework.
-
-**Official guides:**
-
-- Anthropic (2025). [Prompt engineering overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering). Claude's best practices.
-- OpenAI (2025). [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering). GPT best practices.
-- Google (2025). [Gemini Prompting Guide](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf). The PTCF framework.
-:::
-
-:::{.column width=50%}
-**Learning resources:**
-
-- [Prompting Guide](https://www.promptingguide.ai/). Community-maintained reference.
-- Google (2025). [Prompting essentials](https://grow.google/prompting-essentials/). Free Coursera course.
-- Berryman, J., & Ziegler, A. (2024). [Prompt Engineering for LLMs](https://www.oreilly.com/library/view/prompt-engineering-for/9781098156145/). O'Reilly book.
-
-**Tools to practice:**
-
-- [ChatGPT](https://chat.openai.com/)
-- [Claude](https://claude.ai/)
-- [Gemini](https://gemini.google.com/)
-- [Perplexity](https://perplexity.ai/) (research with citations)
-- [OpenAI Tokenizer](https://platform.openai.com/tokenizer)
-:::
-:::
 :::
 
 # ...and that's all for today! 🎉 {background-color="#2d4563"}
