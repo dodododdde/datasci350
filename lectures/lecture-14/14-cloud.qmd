@@ -93,10 +93,9 @@ If the video doesn't play, please click [here](https://www.youtube.com/watch?v=L
 :::{.columns}
 :::{.column width="50%"}
 - Cloud computing is the [on-demand delivery]{.alert} of computing resources through a cloud services platform via the internet with [pay-as-you-go pricing]{.alert}
-- Cloud computing has increased in popularity in recent years because it offers many advantages
-  - [Scalability, flexibility, and cost-efficiency]{.alert}
-- There are three main types of cloud computing services: [IaaS, PaaS, and SaaS]{.alert}
-- The most popular cloud computing platforms are [Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)]{.alert}, the "Big Three"
+- They've become more popular due to [scalability, flexibility, and cost-efficiency]{.alert}
+- There are four main types of cloud computing services: [IaaS, PaaS, SaaS, and FaaS]{.alert}
+- The most popular platforms are [Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)]{.alert}, the "Big Three"
 - They are so widely used that Amazon's AWS is the [most profitable division]{.alert} of the company
   - Although it is only 15% of their total sales, it accounts for more than 50% of their profits (~$28 billion)
 :::
@@ -128,7 +127,7 @@ Source: [GeekWire (2025)](https://www.geekwire.com/2025/amazons-quarterly-profit
 
 :::{.column width="50%"}
 - Infrastructure is [very expensive]{.alert}: 
-  - Hardware costs (Dell charges [~7k for its least expensive server](https://www.dell.com/en-us/shop/cty/pdp/spd/poweredge-r570/na_promo_per570_2)) 
+  - Hardware costs (Dell is charging [~15k for its least expensive server](https://www.dell.com/en-us/shop/cty/pdp/spd/poweredge-r570/na_promo_per570_2)) 
   - Real estate costs 
   - Cooling system, power bill 
   - A few systems engineers 
@@ -165,7 +164,6 @@ Source: [GeekWire (2025)](https://www.geekwire.com/2025/amazons-quarterly-profit
 :::{.columns}
 :::{.column width="50%"}
 - [Animoto](https://animoto.com/): Lets users create videos from their own photos/music
-- Auto-edits photos and videos and aligns them with the music, so it "looks good"
 - Built using [Amazon EC2](https://aws.amazon.com/ec2/) (Elastic Compute Cloud) + [S3](https://aws.amazon.com/s3/) (Simple Storage Service) + [SQS](https://aws.amazon.com/sqs/) (Simple Queue Service)
 - Released a Facebook app in mid-April 2008 
 - More than [750,000 people signed up within 3 days]{.alert}
@@ -327,7 +325,7 @@ Source: [The Washington Post](https://www.washingtonpost.com/archive/politics/20
 :::{.column width="50%"}
 - Middleware is software that [connects two separate applications]{.alert}
 - This is software we rarely see, but which is [essential for the functioning of the internet]{.alert}
-- For instance, software that handles [authentication, authorisation, and encryption]{.alert}, drivers that [connect to databases]{.alert}, and software that [handles messaging]{.alert}
+- For instance, software that handles [authentication, authorisation, and encryption]{.alert}, drivers that [connect to databases]{.alert}, etc
 - [Amazon SQS](https://aws.amazon.com/sqs), [Apache Kafka](https://kafka.apache.org), and [RabbitMQ](https://www.rabbitmq.com) are examples of middleware
 :::
 
@@ -363,18 +361,14 @@ More about [virtualisation](https://www.redhat.com/en/topics/virtualization/what
 :::
 :::
 
-## The Big Three ☁️
-
-:::{style="margin-top: 30px; font-size: 26px; text-align: center;"}
-[![](figures/market.jpeg){width="50%"}](#){data-modal-type="image" data-modal-url="figures/market.jpeg"}
-:::
+# Amazon Web Services (AWS) 🛠️ {background-color="#2d4563"}
 
 ## Amazon Web Services (AWS)
 
 :::{style="margin-top: 30px; font-size: 26px;"}
 :::{.columns}
 :::{.column width="50%"}
-- Amazon Web Services is a collection of cloud-based services
+- AWS is a collection of cloud-based services
 - It's a very [large platform]{.alert}
 - Let me say it again: [a VERY LARGE ONE]{.alert} 😂
 - They offer a wide range of services:
@@ -394,19 +388,17 @@ More about [virtualisation](https://www.redhat.com/en/topics/virtualization/what
 :::
 :::
 
-# AWS services 🛠️ {background-color="#2d4563"}
-
 ## Amazon EC2 - Elastic Compute Cloud
 
 :::{style="margin-top: 30px; font-size: 25px;"}
 :::{.columns}
 :::{.column width="50%"}
-- Amazon EC2 is a web service that provides [resizable compute capacity]{.alert} in the cloud
-- It's designed to make web-scale cloud computing easier for developers
-- You can launch instances with a [variety of operating systems (mainly Linux)]{.alert}
-- Which means that, for the most part, [you can use Bash and run any software you want from the command line]{.alert}
+- Amazon EC2 is a web service that provides [resizable compute capacity]{.alert}
+- It's designed to make web-scale cloud computing easier
+- You can launch instances with a [many operating systems (mainly Linux)]{.alert}
+- Which means that [you can use Bash and run any software you want from the command line]{.alert}
 - You can also use a [GUI]{.alert}, but it is not necessary
-- You can use EC2 to host a website, run a database, or run a machine learning model
+- You can use EC2 to host a website, run a database, run a machine learning model, etc
 :::
 
 :::{.column width="50%"}
@@ -430,9 +422,8 @@ More about [virtualisation](https://www.redhat.com/en/topics/virtualization/what
 :::{.columns}
 :::{.column width="50%"}
 - Scaling is the ability to [increase or decrease]{.alert} the compute capacity of your application
-- Scale your application manually, on a scheduled basis or on demand
-- This is useful when you have [fluctuating workloads]{.alert}, such as a website that gets more traffic during the day, or a machine learning model that gets more requests at certain times
-- You can set up [auto scaling groups]{.alert} to automatically scale your application
+- You can do it manually or automatically
+- Useful when you have [fluctuating workloads]{.alert}, such as a website that gets more traffic during the day, or a machine learning model that gets more requests at certain times
 - You can also set up [load balancers]{.alert} to distribute traffic across multiple instances
 :::
 
@@ -451,13 +442,12 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 :::{style="margin-top: 30px; font-size: 26px;"}
 :::{.columns}
 :::{.column width="50%"}
-- ELB is a service that automatically [distributes incoming application traffic]{.alert} across multiple targets
-- It can handle the [varying load of your application traffic]{.alert} in a single availability zone or across multiple availability zones
+- ELB is a service that [distributes incoming application traffic]{.alert} across multiple targets
+- It handles the [varying load of your application traffic]{.alert} in a single availability zone or across multiple availability zones
 - ELB is a [key component]{.alert} of auto scaling
 - As with EC2, you pay for the data transfer and the number of requests
 - [And it can be quite expensive too]{.alert}
-- It can detect unhealthy instances and reroute traffic to healthy instances
-- So your application is always [available]{.alert}!
+- It can detect unhealthy instances and reroute traffic to healthy instances, so your [application is always available]{.alert}
 :::
 
 :::{.column width="50%"}
@@ -549,10 +539,9 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 :::{style="margin-top: 30px; font-size: 22px;"}
 :::{.columns}
 :::{.column width="50%"}
-- [Amazon RDS](https://aws.amazon.com/rds/) is a web service that makes it easy to set up, operate, and scale a [relational database]{.alert}
+- [Amazon RDS](https://aws.amazon.com/rds/) is a web service that makes it easy to set up and operate a [relational database]{.alert}
 - You can choose from [six popular database engines]{.alert}:
   - [Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle, and SQL Server]{.alert}
-- You can also use [Aurora Serverless]{.alert} to automatically scale your database
 - It's a managed service, so you don't have to worry about [backups, patches, or updates]{.alert}
 - It works well with another AWS service called [Athena](https://aws.amazon.com/athena/), which allows you to query data in S3 using SQL
 - You can also use [Redshift](https://aws.amazon.com/redshift/) for data warehousing and business analytics, and [DynamoDB](https://aws.amazon.com/dynamodb/) for NoSQL databases
@@ -574,11 +563,11 @@ Source: [AWS](https://aws.amazon.com/autoscaling)
 :::{.columns}
 :::{.column width="50%"}
 - Finally, let's talk about [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
-- SageMaker is a fully managed service that allows you to build, train, and deploy machine learning models at scale
+- SageMaker is a fully managed service that allows you to build, train, and deploy [machine learning models at scale]{.alert}
 - It has several pre-configured models, such as [TensorFlow, PyTorch, and Scikit-learn]{.alert}
 - You can also bring your own models too, and use [Jupyter notebooks]{.alert} to train them
-- Lots of other models available in the [AWS Marketplace](https://aws.amazon.com/marketplace), and you can also use [SageMaker Studio]{.alert} to manage your projects
-- Machine Learning: application services
+- Lots of other models available in the [AWS Marketplace](https://aws.amazon.com/marketplace), and you can also use [SageMaker Studio](https://aws.amazon.com/sagemaker/ai/studio/) to manage your projects
+- Some application services
   - [Comprehend (for NLP)](https://aws.amazon.com/comprehend/)
   - [Rekognition (Visual Analysis)](https://aws.amazon.com/rekognition/)
   - [Translate](https://aws.amazon.com/translate/)
@@ -697,7 +686,7 @@ Then click on the bucket and upload the file
 :::{.column width="50%"}
 - Now let's go to [Amazon Transcribe](https://us-east-1.console.aws.amazon.com/transcribe/home?region=us-east-1)
 - Just search for `Transcribe` in the search bar
-- Click on [Create job]{.alert}
+- Click on [Transcription jobs]{.alert} (left sidebar), then click on [Create job]{.alert}
 - Give it a name, select the language, and choose the S3 bucket where the file is located
 - Click [Create]{.alert}
 :::
